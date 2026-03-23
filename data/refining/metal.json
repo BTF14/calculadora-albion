@@ -1,0 +1,9 @@
+{
+  "tiers": {
+    "4": { "raw": "Mineral de acero", "refined": "Lingote de acero", "rawCount": 2, "previousRefinedTier": 3, "previousRefinedEnchant": 0 },
+    "5": { "raw": "Mineral de titanio", "refined": "Lingote de titanio", "rawCount": 3, "previousRefinedTier": 4, "previousRefinedEnchant": "same" },
+    "6": { "raw": "Mineral de runita", "refined": "Lingote de runita", "rawCount": 4, "previousRefinedTier": 5, "previousRefinedEnchant": "same" },
+    "7": { "raw": "Mineral de meteorito", "refined": "Lingote de meteorito", "rawCount": 5, "previousRefinedTier": 6, "previousRefinedEnchant": "same" },
+    "8": { "raw": "Mineral de adamantio", "refined": "Lingote de adamantio", "rawCount": 5, "previousRefinedTier": 7, "previousRefinedEnchant": "same" }
+  }
+}
