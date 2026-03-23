@@ -1,6 +1,14 @@
 {
-  "T2": { "name": "Bolsa del novato", "tier": 2, "ingredients": { "Tela simple": 12, "Cuero firme": 12 } },
-  "T3": { "name": "Bolsa del obrero", "tier": 3, "ingredients": { "Tela pulcra": 8, "Cuero grueso": 8 } },
+  "T2": {
+    "name": "Bolsa del novato",
+    "tier": 2,
+    "ingredients": { "Tela simple": 12, "Cuero firme": 12 }
+  },
+  "T3": {
+    "name": "Bolsa del obrero",
+    "tier": 3,
+    "ingredients": { "Tela pulcra": 8, "Cuero grueso": 8 }
+  },
   "T4": {
     "name": "Bolsa del iniciado",
     "tier": 4,
