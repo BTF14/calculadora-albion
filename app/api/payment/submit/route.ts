@@ -36,7 +36,7 @@ export async function POST(req: Request) {
   }
 
   const blob = await put(`payments/${session.user.id}-${Date.now()}.png`, file, {
-    access: 'authenticated', // ✅ valor correcto
+    access: 'public',
   })
 
   await query(
