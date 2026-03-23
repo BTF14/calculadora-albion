@@ -1,0 +1,386 @@
+{
+  "T3_SOPA_ZANAHORIA": {
+    "name": "Sopa de Zanahorias",
+    "tier": 3,
+    "outputQuantity": 10,
+    "fame": 480,
+    "focus": 560,
+    "ingredients": { "Zanahoria": 16 }
+  },
+  "T3_ENSALADA_FRIJOLES": {
+    "name": "Ensalada de Frijoles",
+    "tier": 3,
+    "outputQuantity": 10,
+    "fame": 480,
+    "focus": 560,
+    "ingredients": { "Judía": 8, "Zanahoria": 8 }
+  },
+  "T4_SOPA_TRIGO": {
+    "name": "Sopa de Trigo",
+    "tier": 4,
+    "outputQuantity": 10,
+    "fame": 1440,
+    "focus": 1680,
+    "ingredients": { "Trigo": 48 }
+  },
+  "T4_PASTEL_POLLO": {
+    "name": "Pastel de Pollo",
+    "tier": 4,
+    "outputQuantity": 10,
+    "fame": 180,
+    "focus": 530,
+    "ingredients": { "Trigo": 2, "Harina": 4, "Pollo Crudo": 8 }
+  },
+  "T4_TORTILLA_POLLO": {
+    "name": "Tortilla de Pollo",
+    "tier": 4,
+    "outputQuantity": 10,
+    "fame": 180,
+    "focus": 520,
+    "ingredients": { "Trigo": 4, "Pollo Crudo": 8, "Huevos de Gallina": 2 }
+  },
+  "T4_ASADO_POLLO": {
+    "name": "Pollo Asado",
+    "tier": 4,
+    "outputQuantity": 10,
+    "fame": 480,
+    "focus": 580,
+    "ingredients": { "Pollo Crudo": 8, "Judía": 4, "Leche de Cabra": 4 }
+  },
+  "T5_ENSALADA_RABANOS": {
+    "name": "Ensalada de Rábanos",
+    "tier": 5,
+    "outputQuantity": 10,
+    "fame": 1440,
+    "focus": 1680,
+    "ingredients": { "Nabo": 24, "Trigo": 24 }
+  },
+  "T5_GUISO_CABRA": {
+    "name": "Guiso de Cabra",
+    "tier": 5,
+    "outputQuantity": 10,
+    "fame": 480,
+    "focus": 610,
+    "ingredients": { "Nabo": 4, "Pan": 4, "Cabra Cruda": 8 }
+  },
+  "T5_BOCADILLO_CABRA": {
+    "name": "Bocadillo de Cabra",
+    "tier": 5,
+    "outputQuantity": 10,
+    "fame": 420,
+    "focus": 550,
+    "ingredients": { "Mantequilla de Cabra": 2, "Pan": 4, "Cabra Cruda": 8 }
+  },
+  "T6_SOPA_COL": {
+    "name": "Sopa de Col",
+    "tier": 6,
+    "outputQuantity": 10,
+    "fame": 4320,
+    "focus": 5040,
+    "ingredients": { "Repollo": 144 }
+  },
+  "T6_PASTEL_GANSO": {
+    "name": "Pastel de Ganso",
+    "tier": 6,
+    "outputQuantity": 10,
+    "fame": 720,
+    "focus": 1800,
+    "ingredients": { "Repollo": 6, "Harina": 12, "Ganso Crudo": 24, "Leche de Cabra": 6 }
+  },
+  "T6_TORTILLA_GANSO": {
+    "name": "Tortilla de Ganso",
+    "tier": 6,
+    "outputQuantity": 10,
+    "fame": 1260,
+    "focus": 1550,
+    "ingredients": { "Repollo": 12, "Ganso Crudo": 24, "Huevos de Ganso": 6 }
+  },
+  "T6_ASADO_GANSO": {
+    "name": "Ganso Asado",
+    "tier": 6,
+    "outputQuantity": 10,
+    "fame": 1440,
+    "focus": 1760,
+    "ingredients": { "Ganso Crudo": 24, "Repollo": 12, "Leche de Oveja": 12 }
+  },
+  "T7_ENSALADA_PATATAS": {
+    "name": "Ensalada de Patatas",
+    "tier": 7,
+    "outputQuantity": 10,
+    "fame": 4320,
+    "focus": 5040,
+    "ingredients": { "Repollo": 72, "Patatas": 72 }
+  },
+  "T7_GUISO_CARNERO": {
+    "name": "Guiso de Carnero",
+    "tier": 7,
+    "outputQuantity": 10,
+    "fame": 1440,
+    "focus": 1840,
+    "ingredients": { "Patatas": 12, "Pan": 12, "Cordero Crudo": 24 }
+  },
+  "T7_BOCADILLO_CARNERO": {
+    "name": "Bocadillo de Carnero",
+    "tier": 7,
+    "outputQuantity": 10,
+    "fame": 1260,
+    "focus": 1650,
+    "ingredients": { "Mantequilla de Oveja": 6, "Pan": 12, "Cordero Crudo": 24 }
+  },
+  "T8_PASTEL_CERDO": {
+    "name": "Pastel de Cerdo",
+    "tier": 8,
+    "outputQuantity": 10,
+    "fame": 4320,
+    "focus": 5400,
+    "ingredients": { "Cerdo Crudo": 72, "Harina": 36, "Maíz": 18, "Leche de Oveja": 18 }
+  },
+  "T8_TORTILLA_CERDO": {
+    "name": "Tortilla de Cerdo",
+    "tier": 8,
+    "outputQuantity": 10,
+    "fame": 3780,
+    "focus": 4640,
+    "ingredients": { "Maíz": 36, "Huevos de Ganso": 18, "Cerdo Crudo": 72 }
+  },
+  "T8_ASADO_CERDO": {
+    "name": "Cerdo Asado",
+    "tier": 8,
+    "outputQuantity": 10,
+    "fame": 4320,
+    "focus": 5280,
+    "ingredients": { "Maíz": 36, "Cerdo Crudo": 72, "Leche de Vaca": 36 }
+  },
+  "T8_GUISO_TERNERA": {
+    "name": "Guiso de Ternera",
+    "tier": 8,
+    "outputQuantity": 10,
+    "fame": 4320,
+    "focus": 5510,
+    "ingredients": { "Ternera Cruda": 72, "Calabaza": 36, "Pan": 36 }
+  },
+  "T8_BOCADILLO_TERNERA": {
+    "name": "Bocadillo de Ternera",
+    "tier": 8,
+    "outputQuantity": 10,
+    "fame": 3780,
+    "focus": 4940,
+    "ingredients": { "Ternera Cruda": 72, "Pan": 36, "Mantequilla de Vaca": 18 }
+  },
+  "T8_PASTEL_CERDO_1": {
+    "name": "Pastel de Cerdo .1",
+    "tier": 8,
+    "outputQuantity": 10,
+    "fame": 4320,
+    "focus": 7390,
+    "ingredients": { "Cerdo Crudo": 72, "Harina": 36, "Maíz": 18, "Leche de Oveja": 18, "Salsa de Pescado Básica": 90 }
+  },
+  "T8_PASTEL_CERDO_2": {
+    "name": "Pastel de Cerdo .2",
+    "tier": 8,
+    "outputQuantity": 10,
+    "fame": 4320,
+    "focus": 11400,
+    "ingredients": { "Cerdo Crudo": 72, "Harina": 36, "Maíz": 18, "Leche de Oveja": 18, "Salsa de Pescado Extravagante": 90 }
+  },
+  "T8_PASTEL_CERDO_3": {
+    "name": "Pastel de Cerdo .3",
+    "tier": 8,
+    "outputQuantity": 10,
+    "fame": 4320,
+    "focus": 23410,
+    "ingredients": { "Cerdo Crudo": 72, "Harina": 36, "Maíz": 18, "Leche de Oveja": 18, "Salsa de Pescado Especial": 90 }
+  },
+  "T8_TORTILLA_CERDO_1": {
+    "name": "Tortilla de Cerdo .1",
+    "tier": 8,
+    "outputQuantity": 10,
+    "fame": 3780,
+    "focus": 6650,
+    "ingredients": { "Maíz": 36, "Huevos de Ganso": 18, "Cerdo Crudo": 72, "Salsa de Pescado Básica": 90 }
+  },
+  "T8_TORTILLA_CERDO_2": {
+    "name": "Tortilla de Cerdo .2",
+    "tier": 8,
+    "outputQuantity": 10,
+    "fame": 3780,
+    "focus": 10650,
+    "ingredients": { "Maíz": 36, "Huevos de Ganso": 18, "Cerdo Crudo": 72, "Salsa de Pescado Extravagante": 90 }
+  },
+  "T8_TORTILLA_CERDO_3": {
+    "name": "Tortilla de Cerdo .3",
+    "tier": 8,
+    "outputQuantity": 10,
+    "fame": 3780,
+    "focus": 22660,
+    "ingredients": { "Maíz": 36, "Huevos de Ganso": 18, "Cerdo Crudo": 72, "Salsa de Pescado Especial": 90 }
+  },
+  "T8_ASADO_CERDO_1": {
+    "name": "Cerdo Asado .1",
+    "tier": 8,
+    "outputQuantity": 10,
+    "fame": 4320,
+    "focus": 7280,
+    "ingredients": { "Maíz": 36, "Cerdo Crudo": 72, "Leche de Vaca": 36, "Salsa de Pescado Básica": 90 }
+  },
+  "T8_ASADO_CERDO_2": {
+    "name": "Cerdo Asado .2",
+    "tier": 8,
+    "outputQuantity": 10,
+    "fame": 4320,
+    "focus": 11280,
+    "ingredients": { "Maíz": 36, "Cerdo Crudo": 72, "Leche de Vaca": 36, "Salsa de Pescado Extravagante": 90 }
+  },
+  "T8_ASADO_CERDO_3": {
+    "name": "Cerdo Asado .3",
+    "tier": 8,
+    "outputQuantity": 10,
+    "fame": 4320,
+    "focus": 23290,
+    "ingredients": { "Maíz": 36, "Cerdo Crudo": 72, "Leche de Vaca": 36, "Salsa de Pescado Especial": 90 }
+  },
+  "T8_GUISO_TERNERA_1": {
+    "name": "Guiso de Ternera .1",
+    "tier": 8,
+    "outputQuantity": 10,
+    "fame": 4320,
+    "focus": 7520,
+    "ingredients": { "Ternera Cruda": 72, "Calabaza": 36, "Pan": 36, "Salsa de Pescado Básica": 90 }
+  },
+  "T8_GUISO_TERNERA_2": {
+    "name": "Guiso de Ternera .2",
+    "tier": 8,
+    "outputQuantity": 10,
+    "fame": 4320,
+    "focus": 11520,
+    "ingredients": { "Ternera Cruda": 72, "Calabaza": 36, "Pan": 36, "Salsa de Pescado Extravagante": 90 }
+  },
+  "T8_GUISO_TERNERA_3": {
+    "name": "Guiso de Ternera .3",
+    "tier": 8,
+    "outputQuantity": 10,
+    "fame": 4320,
+    "focus": 23530,
+    "ingredients": { "Ternera Cruda": 72, "Calabaza": 36, "Pan": 36, "Salsa de Pescado Especial": 90 }
+  },
+  "T8_BOCADILLO_TERNERA_1": {
+    "name": "Bocadillo de Ternera .1",
+    "tier": 8,
+    "outputQuantity": 10,
+    "fame": 3780,
+    "focus": 6940,
+    "ingredients": { "Ternera Cruda": 72, "Pan": 36, "Mantequilla de Vaca": 18, "Salsa de Pescado Básica": 90 }
+  },
+  "T8_BOCADILLO_TERNERA_2": {
+    "name": "Bocadillo de Ternera .2",
+    "tier": 8,
+    "outputQuantity": 10,
+    "fame": 3780,
+    "focus": 10940,
+    "ingredients": { "Ternera Cruda": 72, "Pan": 36, "Mantequilla de Vaca": 18, "Salsa de Pescado Extravagante": 90 }
+  },
+  "T8_BOCADILLO_TERNERA_3": {
+    "name": "Bocadillo de Ternera .3",
+    "tier": 8,
+    "outputQuantity": 10,
+    "fame": 3780,
+    "focus": 22950,
+    "ingredients": { "Ternera Cruda": 72, "Pan": 36, "Mantequilla de Vaca": 18, "Salsa de Pescado Especial": 90 }
+  },
+  "T8_TORTILLA_CERDO_AVA": {
+    "name": "Tortilla de Cerdo Ava",
+    "tier": 8,
+    "outputQuantity": 10,
+    "fame": 3780,
+    "focus": 4640,
+    "ingredients": { "Leche de Vaca": 36, "Huevos de Ganso": 18, "Cerdo Crudo": 72, "Energía Avaloniana": 90 }
+  },
+  "T8_TORTILLA_CERDO_AVA_1": {
+    "name": "Tortilla de Cerdo Ava .1",
+    "tier": 8,
+    "outputQuantity": 10,
+    "fame": 3780,
+    "focus": 6650,
+    "ingredients": { "Leche de Vaca": 36, "Huevos de Ganso": 18, "Cerdo Crudo": 72, "Energía Avaloniana": 90, "Salsa de Pescado Básica": 90 }
+  },
+  "T8_TORTILLA_CERDO_AVA_2": {
+    "name": "Tortilla de Cerdo Ava .2",
+    "tier": 8,
+    "outputQuantity": 10,
+    "fame": 3780,
+    "focus": 10650,
+    "ingredients": { "Leche de Vaca": 36, "Huevos de Ganso": 18, "Cerdo Crudo": 72, "Energía Avaloniana": 90, "Salsa de Pescado Extravagante": 90 }
+  },
+  "T8_TORTILLA_CERDO_AVA_3": {
+    "name": "Tortilla de Cerdo Ava .3",
+    "tier": 8,
+    "outputQuantity": 10,
+    "fame": 3780,
+    "focus": 22660,
+    "ingredients": { "Leche de Vaca": 36, "Huevos de Ganso": 18, "Cerdo Crudo": 72, "Energía Avaloniana": 90, "Salsa de Pescado Especial": 90 }
+  },
+  "T8_GUISO_TERNERA_AVA": {
+    "name": "Guiso de Ternera Ava",
+    "tier": 8,
+    "outputQuantity": 10,
+    "fame": 4320,
+    "focus": 5280,
+    "ingredients": { "Ternera Cruda": 72, "Calabaza": 36, "Maíz": 36, "Energía Avaloniana": 90 }
+  },
+  "T8_GUISO_TERNERA_AVA_1": {
+    "name": "Guiso de Ternera Ava .1",
+    "tier": 8,
+    "outputQuantity": 10,
+    "fame": 4320,
+    "focus": 7280,
+    "ingredients": { "Ternera Cruda": 72, "Calabaza": 36, "Maíz": 36, "Energía Avaloniana": 90, "Salsa de Pescado Básica": 90 }
+  },
+  "T8_GUISO_TERNERA_AVA_2": {
+    "name": "Guiso de Ternera Ava .2",
+    "tier": 8,
+    "outputQuantity": 10,
+    "fame": 4320,
+    "focus": 11280,
+    "ingredients": { "Ternera Cruda": 72, "Calabaza": 36, "Maíz": 36, "Energía Avaloniana": 90, "Salsa de Pescado Extravagante": 90 }
+  },
+  "T8_GUISO_TERNERA_AVA_3": {
+    "name": "Guiso de Ternera Ava .3",
+    "tier": 8,
+    "outputQuantity": 10,
+    "fame": 4320,
+    "focus": 23290,
+    "ingredients": { "Ternera Cruda": 72, "Calabaza": 36, "Maíz": 36, "Energía Avaloniana": 90, "Salsa de Pescado Especial": 90 }
+  },
+  "T8_BOCADILLO_TERNERA_AVA": {
+    "name": "Bocadillo de Ternera Ava",
+    "tier": 8,
+    "outputQuantity": 10,
+    "fame": 3780,
+    "focus": 4940,
+    "ingredients": { "Ternera Cruda": 72, "Pan": 36, "Mantequilla de Vaca": 18, "Energía Avaloniana": 90 }
+  },
+  "T8_BOCADILLO_TERNERA_AVA_1": {
+    "name": "Bocadillo de Ternera Ava .1",
+    "tier": 8,
+    "outputQuantity": 10,
+    "fame": 3780,
+    "focus": 6940,
+    "ingredients": { "Ternera Cruda": 72, "Pan": 36, "Mantequilla de Vaca": 18, "Energía Avaloniana": 90, "Salsa de Pescado Básica": 90 }
+  },
+  "T8_BOCADILLO_TERNERA_AVA_2": {
+    "name": "Bocadillo de Ternera Ava .2",
+    "tier": 8,
+    "outputQuantity": 10,
+    "fame": 3780,
+    "focus": 10940,
+    "ingredients": { "Ternera Cruda": 72, "Pan": 36, "Mantequilla de Vaca": 18, "Energía Avaloniana": 90, "Salsa de Pescado Extravagante": 90 }
+  },
+  "T8_BOCADILLO_TERNERA_AVA_3": {
+    "name": "Bocadillo de Ternera Ava .3",
+    "tier": 8,
+    "outputQuantity": 10,
+    "fame": 3780,
+    "focus": 22950,
+    "ingredients": { "Ternera Cruda": 72, "Pan": 36, "Mantequilla de Vaca": 18, "Energía Avaloniana": 90, "Salsa de Pescado Especial": 90 }
+  }
+}
