@@ -1,0 +1,9 @@
+{
+  "tiers": {
+    "4": { "raw": "Piel media", "refined": "Cuero trabajado", "rawCount": 2, "previousRefinedTier": 3, "previousRefinedEnchant": 0 },
+    "5": { "raw": "Piel Pesada", "refined": "Cuero curtido", "rawCount": 3, "previousRefinedTier": 4, "previousRefinedEnchant": "same" },
+    "6": { "raw": "Piel fornida", "refined": "Cuero endurecido", "rawCount": 4, "previousRefinedTier": 5, "previousRefinedEnchant": "same" },
+    "7": { "raw": "Piel gruesa", "refined": "Cuero reforzado", "rawCount": 5, "previousRefinedTier": 6, "previousRefinedEnchant": "same" },
+    "8": { "raw": "Piel resistente", "refined": "Cuero fortalecido", "rawCount": 5, "previousRefinedTier": 7, "previousRefinedEnchant": "same" }
+  }
+}
