@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bgBlue" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e3a8a"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+    
+    <linearGradient id="goldBorder" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fef08a"/>
+      <stop offset="50%" stop-color="#eab308"/>
+      <stop offset="100%" stop-color="#a16207"/>
+    </linearGradient>
+
+    <linearGradient id="bagGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#a16207"/>
+      <stop offset="100%" stop-color="#422006"/>
+    </linearGradient>
+
+    <linearGradient id="bronzeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#d97706"/>
+      <stop offset="50%" stop-color="#b45309"/>
+      <stop offset="100%" stop-color="#78350f"/>
+    </linearGradient>
+  </defs>
+
+  <circle cx="256" cy="256" r="240" fill="url(#bgBlue)" stroke="url(#goldBorder)" stroke-width="16"/>
+
+  <circle cx="256" cy="280" r="160" fill="#ffffff" opacity="0.1" filter="blur(10px)"/>
+
+  <g transform="translate(100, 120) rotate(-30)">
+    <path d="M0,40 C0,0 40,0 40,0 C40,0 40,40 0,40 Z" fill="#22c55e" stroke="#14532d" stroke-width="3"/>
+    <line x1="5" y1="35" x2="35" y2="5" stroke="#14532d" stroke-width="2"/>
+  </g>
+
+  <g transform="translate(350, 110) rotate(15)">
+    <polygon points="15,0 55,0 70,25 0,25" fill="#d4d4d8" stroke="#71717a" stroke-width="3"/>
+    <polygon points="15,0 55,0 60,10 10,10" fill="#f3f4f6"/>
+  </g>
+
+  <ellipse cx="256" cy="240" rx="130" ry="40" fill="#271204"/>
+
+  <g id="calculadora">
+    <rect x="186" y="80" width="140" height="180" rx="10" fill="url(#bronzeGrad)" stroke="#451a03" stroke-width="4"/>
+    <rect x="206" y="100" width="100" height="40" rx="4" fill="#fef3c7" stroke="#451a03" stroke-width="2"/>
+    <text x="256" y="128" font-family="monospace, sans-serif" font-size="22" font-weight="bold" fill="#451a03" text-anchor="middle">9,999</text>
+    
+    <path d="M211 160 h15 v15 h-15 z M248 160 h15 v15 h-15 z M285 160 h15 v15 h-15 z" fill="#fcd34d" stroke="#451a03" stroke-width="2"/>
+    <path d="M211 190 h15 v15 h-15 z M248 190 h15 v15 h-15 z M285 190 h15 v15 h-15 z" fill="#fcd34d" stroke="#451a03" stroke-width="2"/>
+    <path d="M211 220 h15 v15 h-15 z M248 220 h15 v15 h-15 z M285 220 h15 v15 h-15 z" fill="#fcd34d" stroke="#451a03" stroke-width="2"/>
+  </g>
+
+  <path d="M 126 240 Q 256 310 386 240 C 410 400, 340 450, 256 450 C 172 450, 102 400, 126 240 Z" fill="url(#bagGrad)" stroke="#451a03" stroke-width="6"/>
+  
+  <path d="M 126 240 Q 256 310 386 240" fill="none" stroke="#fcd34d" stroke-width="3" stroke-dasharray="8,6"/>
+  <path d="M 180 320 Q 200 380 190 420" fill="none" stroke="#78350f" stroke-width="4" stroke-linecap="round"/>
+  <path d="M 332 320 Q 312 380 322 420" fill="none" stroke="#78350f" stroke-width="4" stroke-linecap="round"/>
+  <path d="M 236 335 Q 256 350 276 335" fill="none" stroke="#78350f" stroke-width="4" stroke-linecap="round"/>
+
+  <g transform="translate(100, 310) rotate(-20)">
+    <rect x="0" y="0" width="70" height="30" rx="4" fill="#78350f" stroke="#451a03" stroke-width="3"/>
+    <line x1="10" y1="10" x2="60" y2="10" stroke="#451a03" stroke-width="2"/>
+    <line x1="10" y1="20" x2="60" y2="20" stroke="#451a03" stroke-width="2"/>
+  </g>
+
+  <g transform="translate(340, 320)">
+    <polygon points="30,0 70,20 60,60 10,50 0,20" fill="#6b7280" stroke="#374151" stroke-width="3"/>
+    <polygon points="30,0 20,30 60,60 70,20" fill="#9ca3af"/>
+  </g>
+
+  <g transform="translate(226, 400)">
+    <path d="M10,0 L50,0 L60,25 L50,50 L10,50 L0,25 Z" fill="#ea580c" stroke="#7c2d12" stroke-width="3"/>
+    <path d="M15,8 L45,8 L52,25 L45,42 L15,42 L8,25 Z" fill="#fdba74" opacity="0.8"/>
+  </g>
+</svg>
