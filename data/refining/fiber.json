@@ -1,0 +1,9 @@
+{
+  "tiers": {
+    "4": { "raw": "Cáñamo", "refined": "Tela fina", "rawCount": 2, "previousRefinedTier": 3, "previousRefinedEnchant": 0 },
+    "5": { "raw": "Duranta", "refined": "Tela decorada", "rawCount": 3, "previousRefinedTier": 4, "previousRefinedEnchant": "same" },
+    "6": { "raw": "Algodón ambarino", "refined": "Tela suntuosa", "rawCount": 4, "previousRefinedTier": 5, "previousRefinedEnchant": "same" },
+    "7": { "raw": "Lino solar", "refined": "Tela opulenta", "rawCount": 5, "previousRefinedTier": 6, "previousRefinedEnchant": "same" },
+    "8": { "raw": "Cáñamo Fantasma", "refined": "Tela barroca", "rawCount": 5, "previousRefinedTier": 7, "previousRefinedEnchant": "same" }
+  }
+}
