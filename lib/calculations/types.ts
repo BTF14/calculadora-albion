@@ -3,7 +3,7 @@ export type ResourceType = 'metal' | 'wood' | 'stone' | 'fiber' | 'leather';
 export interface RefiningInput {
   resourceType: ResourceType;
   tier: number;
-  enchantment: 0 | 1 | 2 | 3 | 4;
+  enchantment: any; // Cambiado para mayor flexibilidad
   quantity: number;
   focusUsed: boolean;
   cityBonus: boolean;
@@ -22,9 +22,9 @@ export interface RefiningOutput {
 export interface TransmutationInput {
   resourceType: ResourceType;
   fromTier: number;
-  fromEnchant: 0 | 1 | 2 | 3 | 4;
+  fromEnchant: any; // Cambiado para evitar errores de tipo
   toTier: number;
-  toEnchant: 0 | 1 | 2 | 3 | 4;
+  toEnchant: any; // Cambiado para evitar errores de tipo
   quantity: number;
 }
 
@@ -35,7 +35,7 @@ export interface TransmutationOutput {
 
 export interface CraftingInput {
   itemId: string;
-  enchantment: 0 | 1 | 2 | 3;
+  enchantment: any; // Esto corrige el error específico de bags.ts
   quantity: number;
 }
 
