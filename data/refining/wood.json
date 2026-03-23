@@ -1,0 +1,9 @@
+{
+  "tiers": {
+    "4": { "raw": "Troncos de pino", "refined": "Tablas de pino", "rawCount": 2, "previousRefinedTier": 3, "previousRefinedEnchant": 0 },
+    "5": { "raw": "Troncos de cedro", "refined": "Tablas de cedro", "rawCount": 3, "previousRefinedTier": 4, "previousRefinedEnchant": "same" },
+    "6": { "raw": "Troncos de roble rojo", "refined": "Tablas de roble rojo", "rawCount": 4, "previousRefinedTier": 5, "previousRefinedEnchant": "same" },
+    "7": { "raw": "Troncos de cortezaceniza", "refined": "Tablas de cortezaceniza", "rawCount": 5, "previousRefinedTier": 6, "previousRefinedEnchant": "same" },
+    "8": { "raw": "Troncos de maderablanca", "refined": "Tablas de maderablanca", "rawCount": 5, "previousRefinedTier": 7, "previousRefinedEnchant": "same" }
+  }
+}
