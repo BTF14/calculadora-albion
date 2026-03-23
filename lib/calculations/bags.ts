@@ -1,22 +1,36 @@
-// ... código anterior donde buscas la bolsa (bag)
+// Importa tus datos (ajusta la ruta según tu proyecto)
+import { bags } from '../data/items'; 
 
-let recipe: any; // Usar 'any' temporalmente es la forma más rápida de saltar este error de unión de tipos
+export const calculateBagIngredients = (itemId: string, enchantment: number, quantity: number) => {
+  // 1. Buscamos el objeto base en los datos
+  const bag = (bags as any)[itemId];
 
-if (enchantment === 0) {
-  recipe = bag; // Si el tier 0 es la base
-} else {
-  const ench = String(enchantment) as keyof typeof bag.enchantments;
-  recipe = bag.enchantments[ench];
-}
+  if (!bag) {
+    throw new Error(`Bolsa con ID ${itemId} no encontrada en la base de datos.`);
+  }
 
-if (!recipe || !recipe.ingredients) {
-  throw new Error(`No se encontraron ingredientes para ${itemId} encantamiento ${enchantment}`);
-}
+  let recipe: any;
 
-const multiplier = quantity;
-const ingredients: Record<string, number> = {};
+  // 2. Determinamos qué receta usar (Base o Encantamiento)
+  if (enchantment === 0) {
+    recipe = bag; 
+  } else {
+    // Convertimos el número a string para que coincida con las llaves del JSON ("1", "2", etc.)
+    const enchKey = String(enchantment) as keyof typeof bag.enchantments;
+    recipe = bag.enchantments?.[enchKey];
+  }
 
-// Ahora TypeScript no debería dar error aquí
-for (const [ing, qty] of Object.entries(recipe.ingredients as Record<string, number>)) {
-  ingredients[ing] = (qty as number) * multiplier;
-}
+  // 3. Validación de seguridad
+  if (!recipe || !recipe.ingredients) {
+    throw new Error(`No se encontraron ingredientes para ${itemId} con encantamiento .${enchantment}`);
+  }
+
+  // 4. Cálculo final
+  const ingredients: Record<string, number> = {};
+  
+  for (const [ing, qty] of Object.entries(recipe.ingredients as Record<string, number>)) {
+    ingredients[ing] = (qty as number) * quantity;
+  }
+
+  return ingredients;
+};
