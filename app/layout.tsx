@@ -1,8 +1,8 @@
 import '../styles/globals.css'
-import { Inter } from 'next/font/google'
+import { inter } from 'next/font/google'
 import { Providers } from './providers'
 
-const inter = Inter({ subsets: ['latin'] })
+const inter = inter({ subsets: ['latin'] })
 
 export const metadata = {
   title: 'Albion Crafting Calculator',
