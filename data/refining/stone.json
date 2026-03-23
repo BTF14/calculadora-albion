@@ -1,9 +1,31 @@
 {
   "tiers": {
+    "2": { "raw": "Piedra caliza", "refined": "Bloque de piedra caliza", "rawCount": 2, "previousRefinedTier": null, "previousRefinedEnchant": null },
+    "3": { "raw": "Arenisca", "refined": "Bloque de arenisca", "rawCount": 2, "previousRefinedTier": 2, "previousRefinedEnchant": 0 },
     "4": { "raw": "Travertino", "refined": "Bloque de travertino", "rawCount": 2, "previousRefinedTier": 3, "previousRefinedEnchant": 0 },
+    "4_1": { "raw": "Travertino poco común", "refined": "Bloque de travertino poco común", "rawCount": 2, "previousRefinedTier": 3, "previousRefinedEnchant": 0 },
+    "4_2": { "raw": "Travertino raro", "refined": "Bloque de travertino raro", "rawCount": 2, "previousRefinedTier": 3, "previousRefinedEnchant": 0 },
+    "4_3": { "raw": "Travertino excepcional", "refined": "Bloque de travertino excepcional", "rawCount": 2, "previousRefinedTier": 3, "previousRefinedEnchant": 0 },
+    "4_4": { "raw": "Travertino prístino", "refined": "Bloque de travertino prístino", "rawCount": 2, "previousRefinedTier": 3, "previousRefinedEnchant": 0 },
     "5": { "raw": "Granito", "refined": "Bloque de granito", "rawCount": 3, "previousRefinedTier": 4, "previousRefinedEnchant": "same" },
+    "5_1": { "raw": "Granito poco común", "refined": "Bloque de granito poco común", "rawCount": 3, "previousRefinedTier": 4, "previousRefinedEnchant": 1 },
+    "5_2": { "raw": "Granito raro", "refined": "Bloque de granito raro", "rawCount": 3, "previousRefinedTier": 4, "previousRefinedEnchant": 2 },
+    "5_3": { "raw": "Granito excepcional", "refined": "Bloque de granito excepcional", "rawCount": 3, "previousRefinedTier": 4, "previousRefinedEnchant": 3 },
+    "5_4": { "raw": "Granito prístino", "refined": "Bloque de granito prístino", "rawCount": 3, "previousRefinedTier": 4, "previousRefinedEnchant": 4 },
     "6": { "raw": "Pizarra", "refined": "Bloque de pizarra", "rawCount": 4, "previousRefinedTier": 5, "previousRefinedEnchant": "same" },
+    "6_1": { "raw": "Pizarra poco común", "refined": "Bloque de pizarra poco común", "rawCount": 4, "previousRefinedTier": 5, "previousRefinedEnchant": 1 },
+    "6_2": { "raw": "Pizarra rara", "refined": "Bloque de pizarra raro", "rawCount": 4, "previousRefinedTier": 5, "previousRefinedEnchant": 2 },
+    "6_3": { "raw": "Pizarra excepcional", "refined": "Bloque de pizarra excepcional", "rawCount": 4, "previousRefinedTier": 5, "previousRefinedEnchant": 3 },
+    "6_4": { "raw": "Pizarra prístina", "refined": "Bloque de pizarra prístino", "rawCount": 4, "previousRefinedTier": 5, "previousRefinedEnchant": 4 },
     "7": { "raw": "Basalto", "refined": "Bloque de basalto", "rawCount": 5, "previousRefinedTier": 6, "previousRefinedEnchant": "same" },
-    "8": { "raw": "Mármol", "refined": "Bloque de mármol", "rawCount": 5, "previousRefinedTier": 7, "previousRefinedEnchant": "same" }
+    "7_1": { "raw": "Basalto poco común", "refined": "Bloque de basalto poco común", "rawCount": 5, "previousRefinedTier": 6, "previousRefinedEnchant": 1 },
+    "7_2": { "raw": "Basalto raro", "refined": "Bloque de basalto raro", "rawCount": 5, "previousRefinedTier": 6, "previousRefinedEnchant": 2 },
+    "7_3": { "raw": "Basalto excepcional", "refined": "Bloque de basalto excepcional", "rawCount": 5, "previousRefinedTier": 6, "previousRefinedEnchant": 3 },
+    "7_4": { "raw": "Basalto prístino", "refined": "Bloque de basalto prístino", "rawCount": 5, "previousRefinedTier": 6, "previousRefinedEnchant": 4 },
+    "8": { "raw": "Mármol", "refined": "Bloque de mármol", "rawCount": 5, "previousRefinedTier": 7, "previousRefinedEnchant": "same" },
+    "8_1": { "raw": "Mármol poco común", "refined": "Bloque de mármol poco común", "rawCount": 5, "previousRefinedTier": 7, "previousRefinedEnchant": 1 },
+    "8_2": { "raw": "Mármol raro", "refined": "Bloque de mármol raro", "rawCount": 5, "previousRefinedTier": 7, "previousRefinedEnchant": 2 },
+    "8_3": { "raw": "Mármol excepcional", "refined": "Bloque de mármol excepcional", "rawCount": 5, "previousRefinedTier": 7, "previousRefinedEnchant": 3 },
+    "8_4": { "raw": "Mármol prístino", "refined": "Bloque de mármol prístino", "rawCount": 5, "previousRefinedTier": 7, "previousRefinedEnchant": 4 }
   }
 }
