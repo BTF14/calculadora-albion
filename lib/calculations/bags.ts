@@ -10,11 +10,10 @@ export function calculateBag(input: CraftingInput & { isVision?: boolean }): Cra
 
   let recipe;
   if (bag.tier === 2 || bag.tier === 3) {
-    // T2 y T3 no tienen encantamientos
     recipe = bag;
   } else {
-    const ench = enchantment as keyof typeof bag.enchantments;
-    recipe = bag.enchantments[ench];
+    const enchantKey = String(enchantment) as keyof typeof bag.enchantments;
+    recipe = bag.enchantments[enchantKey];
     if (!recipe) throw new Error(`Encantamiento ${enchantment} no encontrado para ${itemId}`);
   }
 
