@@ -1,0 +1,9 @@
+{
+  "tiers": {
+    "4": { "raw": "Travertino", "refined": "Bloque de travertino", "rawCount": 2, "previousRefinedTier": 3, "previousRefinedEnchant": 0 },
+    "5": { "raw": "Granito", "refined": "Bloque de granito", "rawCount": 3, "previousRefinedTier": 4, "previousRefinedEnchant": "same" },
+    "6": { "raw": "Pizarra", "refined": "Bloque de pizarra", "rawCount": 4, "previousRefinedTier": 5, "previousRefinedEnchant": "same" },
+    "7": { "raw": "Basalto", "refined": "Bloque de basalto", "rawCount": 5, "previousRefinedTier": 6, "previousRefinedEnchant": "same" },
+    "8": { "raw": "Mármol", "refined": "Bloque de mármol", "rawCount": 5, "previousRefinedTier": 7, "previousRefinedEnchant": "same" }
+  }
+}
