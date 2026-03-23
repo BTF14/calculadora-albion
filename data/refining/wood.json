@@ -1,9 +1,31 @@
 {
   "tiers": {
+    "2": { "raw": "Troncos de abedul", "refined": "Tablas de abedul", "rawCount": 2, "previousRefinedTier": null, "previousRefinedEnchant": null },
+    "3": { "raw": "Troncos de castaño", "refined": "Tablas de castaño", "rawCount": 2, "previousRefinedTier": 2, "previousRefinedEnchant": 0 },
     "4": { "raw": "Troncos de pino", "refined": "Tablas de pino", "rawCount": 2, "previousRefinedTier": 3, "previousRefinedEnchant": 0 },
+    "4_1": { "raw": "Troncos de pino poco común", "refined": "Tablas de pino poco común", "rawCount": 2, "previousRefinedTier": 3, "previousRefinedEnchant": 0 },
+    "4_2": { "raw": "Troncos de pino raro", "refined": "Tablas de pino raro", "rawCount": 2, "previousRefinedTier": 3, "previousRefinedEnchant": 0 },
+    "4_3": { "raw": "Troncos de pino excepcional", "refined": "Tablas de pino excepcional", "rawCount": 2, "previousRefinedTier": 3, "previousRefinedEnchant": 0 },
+    "4_4": { "raw": "Troncos de pino prístino", "refined": "Tablas de pino prístino", "rawCount": 2, "previousRefinedTier": 3, "previousRefinedEnchant": 0 },
     "5": { "raw": "Troncos de cedro", "refined": "Tablas de cedro", "rawCount": 3, "previousRefinedTier": 4, "previousRefinedEnchant": "same" },
+    "5_1": { "raw": "Troncos de cedro poco común", "refined": "Tablas de cedro poco común", "rawCount": 3, "previousRefinedTier": 4, "previousRefinedEnchant": 1 },
+    "5_2": { "raw": "Troncos de cedro raro", "refined": "Tablas de cedro raro", "rawCount": 3, "previousRefinedTier": 4, "previousRefinedEnchant": 2 },
+    "5_3": { "raw": "Troncos de cedro excepcional", "refined": "Tablas de cedro excepcional", "rawCount": 3, "previousRefinedTier": 4, "previousRefinedEnchant": 3 },
+    "5_4": { "raw": "Troncos de cedro prístino", "refined": "Tablas de cedro prístino", "rawCount": 3, "previousRefinedTier": 4, "previousRefinedEnchant": 4 },
     "6": { "raw": "Troncos de roble rojo", "refined": "Tablas de roble rojo", "rawCount": 4, "previousRefinedTier": 5, "previousRefinedEnchant": "same" },
+    "6_1": { "raw": "Troncos de roble rojo poco común", "refined": "Tablas de roble rojo poco común", "rawCount": 4, "previousRefinedTier": 5, "previousRefinedEnchant": 1 },
+    "6_2": { "raw": "Troncos de roble rojo raro", "refined": "Tablas de roble rojo raro", "rawCount": 4, "previousRefinedTier": 5, "previousRefinedEnchant": 2 },
+    "6_3": { "raw": "Troncos de roble rojo excepcional", "refined": "Tablas de roble rojo excepcional", "rawCount": 4, "previousRefinedTier": 5, "previousRefinedEnchant": 3 },
+    "6_4": { "raw": "Troncos de roble rojo prístino", "refined": "Tablas de roble rojo prístino", "rawCount": 4, "previousRefinedTier": 5, "previousRefinedEnchant": 4 },
     "7": { "raw": "Troncos de cortezaceniza", "refined": "Tablas de cortezaceniza", "rawCount": 5, "previousRefinedTier": 6, "previousRefinedEnchant": "same" },
-    "8": { "raw": "Troncos de maderablanca", "refined": "Tablas de maderablanca", "rawCount": 5, "previousRefinedTier": 7, "previousRefinedEnchant": "same" }
+    "7_1": { "raw": "Troncos de cortezaceniza poco común", "refined": "Tablas de cortezaceniza poco común", "rawCount": 5, "previousRefinedTier": 6, "previousRefinedEnchant": 1 },
+    "7_2": { "raw": "Troncos de cortezaceniza raro", "refined": "Tablas de cortezaceniza raro", "rawCount": 5, "previousRefinedTier": 6, "previousRefinedEnchant": 2 },
+    "7_3": { "raw": "Troncos de cortezaceniza excepcional", "refined": "Tablas de cortezaceniza excepcional", "rawCount": 5, "previousRefinedTier": 6, "previousRefinedEnchant": 3 },
+    "7_4": { "raw": "Troncos de cortezaceniza prístino", "refined": "Tablas de cortezaceniza prístino", "rawCount": 5, "previousRefinedTier": 6, "previousRefinedEnchant": 4 },
+    "8": { "raw": "Troncos de maderablanca", "refined": "Tablas de maderablanca", "rawCount": 5, "previousRefinedTier": 7, "previousRefinedEnchant": "same" },
+    "8_1": { "raw": "Troncos de maderablanca poco común", "refined": "Tablas de maderablanca poco común", "rawCount": 5, "previousRefinedTier": 7, "previousRefinedEnchant": 1 },
+    "8_2": { "raw": "Troncos de maderablanca raro", "refined": "Tablas de maderablanca raro", "rawCount": 5, "previousRefinedTier": 7, "previousRefinedEnchant": 2 },
+    "8_3": { "raw": "Troncos de maderablanca excepcional", "refined": "Tablas de maderablanca excepcional", "rawCount": 5, "previousRefinedTier": 7, "previousRefinedEnchant": 3 },
+    "8_4": { "raw": "Troncos de maderablanca prístino", "refined": "Tablas de maderablanca prístino", "rawCount": 5, "previousRefinedTier": 7, "previousRefinedEnchant": 4 }
   }
 }
