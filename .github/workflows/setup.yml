@@ -1,0 +1,30 @@
+name: Setup Project Structure
+on: 
+  workflow_dispatch: # Permite ejecutarlo manualmente
+  push:
+    branches: [ main ]
+
+permissions:
+  contents: write
+
+jobs:
+  setup:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Create Folders and Files
+        run: |
+          # Crear carpetas
+          mkdir -p app/api/auth/\[...nextauth\] app/api/auth/register app/api/admin/verify-payment app/api/payment/submit app/\(auth\)/login app/\(auth\)/registro app/calculadora app/pago app/admin components/ui lib/calculations data/refining data/transmutation public styles scripts
+          
+          # Crear archivos vacíos
+          touch app/api/auth/\[...nextauth\]/route.ts app/api/auth/register/route.ts app/api/admin/verify-payment/route.ts app/api/payment/submit/route.ts app/\(auth\)/login/page.tsx app/\(auth\)/registro/page.tsx app/calculadora/page.tsx app/pago/page.tsx app/admin/page.tsx app/layout.tsx app/providers.tsx app/page.tsx components/CalculatorForm.tsx components/PaymentForm.tsx lib/calculations/types.ts lib/calculations/refiningUtils.ts lib/calculations/refining.ts lib/calculations/transmutation.ts lib/calculations/potions.ts lib/calculations/food.ts lib/calculations/bags.ts lib/db.ts lib/email.ts lib/auth.ts lib/ratelimit.ts data/refining/metal.json data/refining/wood.json data/refining/stone.json data/refining/fiber.json data/refining/leather.json data/transmutation/metal.json data/transmutation/wood.json data/transmutation/stone.json data/transmutation/fiber.json data/transmutation/leather.json data/potions.json data/food.json data/bags.json data/visionBags.json public/favicon.ico styles/globals.css scripts/schema.sql middleware.ts .env.local.example .gitignore package.json tsconfig.json tailwind.config.js postcss.config.js next.config.js
+
+      - name: Commit and Push
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add .
+          git commit -m "Estructura de Calculadora-Albion creada por Action" || echo "No hay cambios para subir"
+          git push
