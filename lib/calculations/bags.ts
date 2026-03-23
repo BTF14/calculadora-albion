@@ -51,6 +51,6 @@ export function calculateBag(input: CraftingInput): CraftingOutput {
 }
 
 // Mantenemos esta función por si otros archivos la llaman
-export const calculateBagIngredients = (itemId: string, enchantment: number, quantity: number) => {
-  return calculateBag({ itemId, enchantment, quantity });
+export const calculateBagIngredients = (itemId: string, enchantment: any, quantity: number) => {
+  return calculateBag({ itemId, enchantment: enchantment as any, quantity });
 };
