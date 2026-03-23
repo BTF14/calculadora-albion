@@ -1,0 +1,59 @@
+{
+  "T2": { "name": "Bolsa del novato", "tier": 2, "ingredients": { "Tela simple": 12, "Cuero firme": 12 } },
+  "T3": { "name": "Bolsa del obrero", "tier": 3, "ingredients": { "Tela pulcra": 8, "Cuero grueso": 8 } },
+  "T4": {
+    "name": "Bolsa del iniciado",
+    "tier": 4,
+    "enchantments": {
+      "0": { "ingredients": { "Tela fina": 8, "Cuero trabajado": 8 } },
+      "1": { "ingredients": { "Tela fina poco común": 8, "Cuero trabajado poco común": 8 } },
+      "2": { "ingredients": { "Tela fina rara": 8, "Cuero trabajado rara": 8 } },
+      "3": { "ingredients": { "Tela fina excepcional": 8, "Cuero trabajado excepcional": 8 } },
+      "4": { "ingredients": { "Tela fina prístina": 8, "Cuero trabajado prístino": 8 } }
+    }
+  },
+  "T5": {
+    "name": "Bolsa del experto",
+    "tier": 5,
+    "enchantments": {
+      "0": { "ingredients": { "Tela decorada": 8, "Cuero curtido": 8 } },
+      "1": { "ingredients": { "Tela decorada poco común": 8, "Cuero curtido poco común": 8 } },
+      "2": { "ingredients": { "Tela decorada rara": 8, "Cuero curtido rara": 8 } },
+      "3": { "ingredients": { "Tela decorada excepcional": 8, "Cuero curtido excepcional": 8 } },
+      "4": { "ingredients": { "Tela decorada prístina": 8, "Cuero curtido prístino": 8 } }
+    }
+  },
+  "T6": {
+    "name": "Bolsa del maestro",
+    "tier": 6,
+    "enchantments": {
+      "0": { "ingredients": { "Tela suntuosa": 8, "Cuero endurecido": 8 } },
+      "1": { "ingredients": { "Tela suntuosa poco común": 8, "Cuero endurecido poco común": 8 } },
+      "2": { "ingredients": { "Tela suntuosa rara": 8, "Cuero endurecido rara": 8 } },
+      "3": { "ingredients": { "Tela suntuosa excepcional": 8, "Cuero endurecido excepcional": 8 } },
+      "4": { "ingredients": { "Tela suntuosa prístina": 8, "Cuero endurecido prístino": 8 } }
+    }
+  },
+  "T7": {
+    "name": "Bolsa del gran maestro",
+    "tier": 7,
+    "enchantments": {
+      "0": { "ingredients": { "Tela opulenta": 8, "Cuero reforzado": 8 } },
+      "1": { "ingredients": { "Tela opulenta poco común": 8, "Cuero reforzado poco común": 8 } },
+      "2": { "ingredients": { "Tela opulenta rara": 8, "Cuero reforzado rara": 8 } },
+      "3": { "ingredients": { "Tela opulenta excepcional": 8, "Cuero reforzado excepcional": 8 } },
+      "4": { "ingredients": { "Tela opulenta prístina": 8, "Cuero reforzado prístino": 8 } }
+    }
+  },
+  "T8": {
+    "name": "Bolsa del anciano",
+    "tier": 8,
+    "enchantments": {
+      "0": { "ingredients": { "Tela barroca": 8, "Cuero fortalecido": 8 } },
+      "1": { "ingredients": { "Tela barroca poco común": 8, "Cuero fortalecido poco común": 8 } },
+      "2": { "ingredients": { "Tela barroca rara": 8, "Cuero fortalecido rara": 8 } },
+      "3": { "ingredients": { "Tela barroca excepcional": 8, "Cuero fortalecido excepcional": 8 } },
+      "4": { "ingredients": { "Tela barroca prístina": 8, "Cuero fortalecido prístina": 8 } }
+    }
+  }
+}
