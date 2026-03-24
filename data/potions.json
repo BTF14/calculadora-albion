@@ -1,442 +1,456 @@
 {
-  "T2_CURATIVE_MINOR": {
-    "name": "Poción de curación menor",
-    "tier": 2,
-    "outputQuantity": 5,
-    "enchantments": {
-      "0": { "ingredients": { "Agárico arcano": 8 } },
-      "1": { "ingredients": { "Agárico arcano": 8, "Extracto básico de Arcano": 5 } },
-      "2": { "ingredients": { "Agárico arcano": 8, "Extracto de arcano refinado": 5 } },
-      "3": { "ingredients": { "Agárico arcano": 8, "Extracto de Arcano Puro": 5 } }
+  "T2_POTIONS": {
+    "T2_CURATIVE_MINOR": {
+      "name": "Poción de curación menor",
+      "tier": 2,
+      "outputQuantity": 5,
+      "enchantments": {
+        "0": { "ingredients": { "Agárico arcano": 8 } },
+        "1": { "ingredients": { "Agárico arcano": 8, "Extracto básico de Arcano": 5 } },
+        "2": { "ingredients": { "Agárico arcano": 8, "Extracto de arcano refinado": 5 } },
+        "3": { "ingredients": { "Agárico arcano": 8, "Extracto de Arcano Puro": 5 } }
+      }
+    },
+    "T2_ENERGY_MINOR": {
+      "name": "Poción de energia menor",
+      "tier": 2,
+      "outputQuantity": 5,
+      "enchantments": {
+        "0": { "ingredients": { "Agárico arcano": 8 } },
+        "1": { "ingredients": { "Agárico arcano": 8, "Extracto básico de Arcano": 5 } },
+        "2": { "ingredients": { "Agárico arcano": 8, "Extracto de arcano refinado": 5 } },
+        "3": { "ingredients": { "Agárico arcano": 8, "Extracto de Arcano Puro": 5 } }
+      }
     }
   },
-  "T2_ENERGY_MINOR": {
-    "name": "Poción de energia menor",
-    "tier": 2,
-    "outputQuantity": 5,
-    "enchantments": {
-      "0": { "ingredients": { "Agárico arcano": 8 } },
-      "1": { "ingredients": { "Agárico arcano": 8, "Extracto básico de Arcano": 5 } },
-      "2": { "ingredients": { "Agárico arcano": 8, "Extracto de arcano refinado": 5 } },
-      "3": { "ingredients": { "Agárico arcano": 8, "Extracto de Arcano Puro": 5 } }
+  "T3_POTIONS": {
+    "T3_GIANTISM_MINOR": {
+      "name": "Poción de gigantismo menor",
+      "tier": 3,
+      "outputQuantity": 5,
+      "enchantments": {
+        "0": { "ingredients": { "Consuelda de hoja brillante": 8 } },
+        "1": { "ingredients": { "Consuelda de hoja brillante": 8, "Extracto básico de Arcano": 5 } },
+        "2": { "ingredients": { "Consuelda de hoja brillante": 8, "Extracto de arcano refinado": 5 } },
+        "3": { "ingredients": { "Consuelda de hoja brillante": 8, "Extracto de Arcano Puro": 5 } }
+      }
+    },
+    "T3_STICKY_MINOR": {
+      "name": "Poción pegajosa menor",
+      "tier": 3,
+      "outputQuantity": 5,
+      "enchantments": {
+        "0": { "ingredients": { "Consuelda de hoja brillante": 8 } },
+        "1": { "ingredients": { "Consuelda de hoja brillante": 8, "Extracto básico de Arcano": 5 } },
+        "2": { "ingredients": { "Consuelda de hoja brillante": 8, "Extracto de arcano refinado": 5 } },
+        "3": { "ingredients": { "Consuelda de hoja brillante": 8, "Extracto de Arcano Puro": 5 } }
+      }
+    },
+    "T3_RESISTANCE_MINOR": {
+      "name": "Poción de resistencia menor",
+      "tier": 3,
+      "outputQuantity": 5,
+      "enchantments": {
+        "0": { "ingredients": { "Consuelda de hoja brillante": 8 } },
+        "1": { "ingredients": { "Consuelda de hoja brillante": 8, "Extracto básico de Arcano": 5 } },
+        "2": { "ingredients": { "Consuelda de hoja brillante": 8, "Extracto de arcano refinado": 5 } },
+        "3": { "ingredients": { "Consuelda de hoja brillante": 8, "Extracto de Arcano Puro": 5 } }
+      }
+    },
+    "T3_CALM_MINOR": {
+      "name": "Poción de calma menor",
+      "tier": 3,
+      "outputQuantity": 10,
+      "enchantments": {
+        "0": { "ingredients": { "Consuelda de hoja brillante": 16, "Garras de sombra resistentes": 1 } },
+        "1": { "ingredients": { "Consuelda de hoja brillante": 16, "Garras de sombra resistentes": 1, "Extracto básico de Arcano": 10 } },
+        "2": { "ingredients": { "Consuelda de hoja brillante": 16, "Garras de sombra resistentes": 1, "Extracto de arcano refinado": 10 } },
+        "3": { "ingredients": { "Consuelda de hoja brillante": 16, "Garras de sombra resistentes": 1, "Extracto de Arcano Puro": 10 } }
+      }
+    },
+    "T3_CLEANSE_MINOR": {
+      "name": "Poción de limpieza menor",
+      "tier": 3,
+      "outputQuantity": 10,
+      "enchantments": {
+        "0": { "ingredients": { "Consuelda de hoja brillante": 16, "Raíz de silvio rugosa": 1 } },
+        "1": { "ingredients": { "Consuelda de hoja brillante": 16, "Raíz de silvio rugosa": 1, "Extracto básico de Arcano": 10 } },
+        "2": { "ingredients": { "Consuelda de hoja brillante": 16, "Raíz de silvio rugosa": 1, "Extracto de arcano refinado": 10 } },
+        "3": { "ingredients": { "Consuelda de hoja brillante": 16, "Raíz de silvio rugosa": 1, "Extracto de Arcano Puro": 10 } }
+      }
+    },
+    "T3_ACID_MINOR": {
+      "name": "Poción de ácido menor",
+      "tier": 3,
+      "outputQuantity": 10,
+      "enchantments": {
+        "0": { "ingredients": { "Consuelda de hoja brillante": 16, "Patas espirituales resistentes": 1 } },
+        "1": { "ingredients": { "Consuelda de hoja brillante": 16, "Patas espirituales resistentes": 1, "Extracto básico de Arcano": 10 } },
+        "2": { "ingredients": { "Consuelda de hoja brillante": 16, "Patas espirituales resistentes": 1, "Extracto de arcano refinado": 10 } },
+        "3": { "ingredients": { "Consuelda de hoja brillante": 16, "Patas espirituales resistentes": 1, "Extracto de Arcano Puro": 10 } }
+      }
     }
   },
-  "T3_GIANTISM_MINOR": {
-    "name": "Poción de gigantismo menor",
-    "tier": 3,
-    "outputQuantity": 5,
-    "enchantments": {
-      "0": { "ingredients": { "Consuelda de hoja brillante": 8 } },
-      "1": { "ingredients": { "Consuelda de hoja brillante": 8, "Extracto básico de Arcano": 5 } },
-      "2": { "ingredients": { "Consuelda de hoja brillante": 8, "Extracto de arcano refinado": 5 } },
-      "3": { "ingredients": { "Consuelda de hoja brillante": 8, "Extracto de Arcano Puro": 5 } }
+  "T4_POTIONS": {
+    "T4_CURATIVE": {
+      "name": "Poción de curación",
+      "tier": 4,
+      "outputQuantity": 5,
+      "enchantments": {
+        "0": { "ingredients": { "Bardana almenada": 24, "Huevos de gallina": 6 } },
+        "1": { "ingredients": { "Bardana almenada": 24, "Huevos de gallina": 6, "Extracto básico de Arcano": 15 } },
+        "2": { "ingredients": { "Bardana almenada": 24, "Huevos de gallina": 6, "Extracto de arcano refinado": 15 } },
+        "3": { "ingredients": { "Bardana almenada": 24, "Huevos de gallina": 6, "Extracto de Arcano Puro": 15 } }
+      }
+    },
+    "T4_ENERGY": {
+      "name": "Poción de energia",
+      "tier": 4,
+      "outputQuantity": 5,
+      "enchantments": {
+        "0": { "ingredients": { "Bardana almenada": 24, "Leche de cabra": 6 } },
+        "1": { "ingredients": { "Bardana almenada": 24, "Leche de cabra": 6, "Extracto básico de Arcano": 15 } },
+        "2": { "ingredients": { "Bardana almenada": 24, "Leche de cabra": 6, "Extracto de arcano refinado": 15 } },
+        "3": { "ingredients": { "Bardana almenada": 24, "Leche de cabra": 6, "Extracto de Arcano Puro": 15 } }
+      }
+    },
+    "T4_VENOM_MINOR": {
+      "name": "Poción de veneno menor",
+      "tier": 4,
+      "outputQuantity": 5,
+      "enchantments": {
+        "0": { "ingredients": { "Bardana almenada": 8, "Consuelda de hoja brillante": 4 } },
+        "1": { "ingredients": { "Bardana almenada": 8, "Consuelda de hoja brillante": 4, "Extracto básico de Arcano": 5 } },
+        "2": { "ingredients": { "Bardana almenada": 8, "Consuelda de hoja brillante": 4, "Extracto de arcano refinado": 5 } },
+        "3": { "ingredients": { "Bardana almenada": 8, "Consuelda de hoja brillante": 4, "Extracto de Arcano Puro": 5 } }
+      }
+    },
+    "T4_BERSERKER_MINOR": {
+      "name": "Poción de berserker menor",
+      "tier": 4,
+      "outputQuantity": 10,
+      "enchantments": {
+        "0": { "ingredients": { "Bardana almenada": 8, "Colmillos de hombre lobo resistentes": 1 } },
+        "1": { "ingredients": { "Bardana almenada": 8, "Colmillos de hombre lobo resistentes": 1, "Extracto básico de Arcano": 5 } },
+        "2": { "ingredients": { "Bardana almenada": 8, "Colmillos de hombre lobo resistentes": 1, "Extracto de arcano refinado": 5 } },
+        "3": { "ingredients": { "Bardana almenada": 8, "Colmillos de hombre lobo resistentes": 1, "Extracto de Arcano Puro": 5 } }
+      }
+    },
+    "T4_TORNADO_MINOR": {
+      "name": "Tornado en botella menor",
+      "tier": 4,
+      "outputQuantity": 10,
+      "enchantments": {
+        "0": { "ingredients": { "Bardana almenada": 8, "Pluma de amanecer resistente": 1 } },
+        "1": { "ingredients": { "Bardana almenada": 8, "Pluma de amanecer resistente": 1, "Extracto básico de Arcano": 5 } },
+        "2": { "ingredients": { "Bardana almenada": 8, "Pluma de amanecer resistente": 1, "Extracto de arcano refinado": 5 } },
+        "3": { "ingredients": { "Bardana almenada": 8, "Pluma de amanecer resistente": 1, "Extracto de Arcano Puro": 5 } }
+      }
+    },
+    "T4_FIRE_INFERNAL_MINOR": {
+      "name": "Poción de fuego infernal menor",
+      "tier": 4,
+      "outputQuantity": 10,
+      "enchantments": {
+        "0": { "ingredients": { "Leche de cabra": 8, "Cuerno de diablillo robusto": 1 } },
+        "1": { "ingredients": { "Leche de cabra": 8, "Cuerno de diablillo robusto": 1, "Extracto básico de Arcano": 5 } },
+        "2": { "ingredients": { "Leche de cabra": 8, "Cuerno de diablillo robusto": 1, "Extracto de arcano refinado": 5 } },
+        "3": { "ingredients": { "Leche de cabra": 8, "Cuerno de diablillo robusto": 1, "Extracto de Arcano Puro": 5 } }
+      }
+    },
+    "T4_GATHERING_MINOR": {
+      "name": "Poción de recolección menor",
+      "tier": 4,
+      "outputQuantity": 10,
+      "enchantments": {
+        "0": { "ingredients": { "Mantequilla de cabra": 8, "Diente de piedra rúnica resistente": 1 } },
+        "1": { "ingredients": { "Mantequilla de cabra": 8, "Diente de piedra rúnica resistente": 1, "Extracto básico de Arcano": 5 } },
+        "2": { "ingredients": { "Mantequilla de cabra": 8, "Diente de piedra rúnica resistente": 1, "Extracto de arcano refinado": 5 } },
+        "3": { "ingredients": { "Mantequilla de cabra": 8, "Diente de piedra rúnica resistente": 1, "Extracto de Arcano Puro": 5 } }
+      }
     }
   },
-  "T3_STICKY_MINOR": {
-    "name": "Poción pegajosa menor",
-    "tier": 3,
-    "outputQuantity": 5,
-    "enchantments": {
-      "0": { "ingredients": { "Consuelda de hoja brillante": 8 } },
-      "1": { "ingredients": { "Consuelda de hoja brillante": 8, "Extracto básico de Arcano": 5 } },
-      "2": { "ingredients": { "Consuelda de hoja brillante": 8, "Extracto de arcano refinado": 5 } },
-      "3": { "ingredients": { "Consuelda de hoja brillante": 8, "Extracto de Arcano Puro": 5 } }
+  "T5_POTIONS": {
+    "T5_RESISTANCE": {
+      "name": "Poción de resistencia",
+      "tier": 5,
+      "outputQuantity": 5,
+      "enchantments": {
+        "0": { "ingredients": { "Dragón Teasel": 24, "Bardana almenada": 12, "Leche de cabra": 6 } },
+        "1": { "ingredients": { "Dragón Teasel": 24, "Bardana almenada": 12, "Leche de cabra": 6, "Extracto básico de Arcano": 15 } },
+        "2": { "ingredients": { "Dragón Teasel": 24, "Bardana almenada": 12, "Leche de cabra": 6, "Extracto de arcano refinado": 15 } },
+        "3": { "ingredients": { "Dragón Teasel": 24, "Bardana almenada": 12, "Leche de cabra": 6, "Extracto de Arcano Puro": 15 } }
+      }
+    },
+    "T5_STICKY": {
+      "name": "Poción pegajosa",
+      "tier": 5,
+      "outputQuantity": 5,
+      "enchantments": {
+        "0": { "ingredients": { "Dragón Teasel": 24, "Bardana almenada": 12, "Huevos de ganso": 6 } },
+        "1": { "ingredients": { "Dragón Teasel": 24, "Bardana almenada": 12, "Huevos de ganso": 6, "Extracto básico de Arcano": 15 } },
+        "2": { "ingredients": { "Dragón Teasel": 24, "Bardana almenada": 12, "Huevos de ganso": 6, "Extracto de arcano refinado": 15 } },
+        "3": { "ingredients": { "Dragón Teasel": 24, "Bardana almenada": 12, "Huevos de ganso": 6, "Extracto de Arcano Puro": 15 } }
+      }
+    },
+    "T5_GIANTISM": {
+      "name": "Poción de gigantismo",
+      "tier": 5,
+      "outputQuantity": 5,
+      "enchantments": {
+        "0": { "ingredients": { "Dragón Teasel": 24, "Bardana almenada": 12, "Huevos de ganso": 6 } },
+        "1": { "ingredients": { "Dragón Teasel": 24, "Bardana almenada": 12, "Huevos de ganso": 6, "Extracto básico de Arcano": 15 } },
+        "2": { "ingredients": { "Dragón Teasel": 24, "Bardana almenada": 12, "Huevos de ganso": 6, "Extracto de arcano refinado": 15 } },
+        "3": { "ingredients": { "Dragón Teasel": 24, "Bardana almenada": 12, "Huevos de ganso": 6, "Extracto de Arcano Puro": 15 } }
+      }
+    },
+    "T5_CLEANSE": {
+      "name": "Poción de limpieza",
+      "tier": 5,
+      "outputQuantity": 5,
+      "enchantments": {
+        "0": { "ingredients": { "Dragón Teasel": 24, "Consuelda de hoja brillante": 12, "Mantequilla de cabra": 6, "Raíz fina de silvio": 1 } },
+        "1": { "ingredients": { "Dragón Teasel": 24, "Consuelda de hoja brillante": 12, "Mantequilla de cabra": 6, "Raíz fina de silvio": 1, "Extracto básico de Arcano": 15 } },
+        "2": { "ingredients": { "Dragón Teasel": 24, "Consuelda de hoja brillante": 12, "Mantequilla de cabra": 6, "Raíz fina de silvio": 1, "Extracto de arcano refinado": 15 } },
+        "3": { "ingredients": { "Dragón Teasel": 24, "Consuelda de hoja brillante": 12, "Mantequilla de cabra": 6, "Raíz fina de silvio": 1, "Extracto de Arcano Puro": 15 } }
+      }
+    },
+    "T5_CALM": {
+      "name": "Poción de calma",
+      "tier": 5,
+      "outputQuantity": 10,
+      "enchantments": {
+        "0": { "ingredients": { "Dragón Teasel": 48, "Bardana almenada": 24, "Agárico arcano": 12, "Garras de sombra finas": 1 } },
+        "1": { "ingredients": { "Dragón Teasel": 48, "Bardana almenada": 24, "Agárico arcano": 12, "Garras de sombra finas": 1, "Extracto básico de Arcano": 30 } },
+        "2": { "ingredients": { "Dragón Teasel": 48, "Bardana almenada": 24, "Agárico arcano": 12, "Garras de sombra finas": 1, "Extracto de arcano refinado": 30 } },
+        "3": { "ingredients": { "Dragón Teasel": 48, "Bardana almenada": 24, "Agárico arcano": 12, "Garras de sombra finas": 1, "Extracto de Arcano Puro": 30 } }
+      }
+    },
+    "T5_ACID": {
+      "name": "Poción de ácido",
+      "tier": 5,
+      "outputQuantity": 10,
+      "enchantments": {
+        "0": { "ingredients": { "Dragón Teasel": 48, "Bardana almenada": 24, "Leche de cabra": 12, "Patas de espíritu fino": 1 } },
+        "1": { "ingredients": { "Dragón Teasel": 48, "Bardana almenada": 24, "Leche de cabra": 12, "Patas de espíritu fino": 1, "Extracto básico de Arcano": 30 } },
+        "2": { "ingredients": { "Dragón Teasel": 48, "Bardana almenada": 24, "Leche de cabra": 12, "Patas de espíritu fino": 1, "Extracto de arcano refinado": 30 } },
+        "3": { "ingredients": { "Dragón Teasel": 48, "Bardana almenada": 24, "Leche de cabra": 12, "Patas de espíritu fino": 1, "Extracto de Arcano Puro": 30 } }
+      }
     }
   },
-  "T3_RESISTANCE_MINOR": {
-    "name": "Poción de resistencia menor",
-    "tier": 3,
-    "outputQuantity": 5,
-    "enchantments": {
-      "0": { "ingredients": { "Consuelda de hoja brillante": 8 } },
-      "1": { "ingredients": { "Consuelda de hoja brillante": 8, "Extracto básico de Arcano": 5 } },
-      "2": { "ingredients": { "Consuelda de hoja brillante": 8, "Extracto de arcano refinado": 5 } },
-      "3": { "ingredients": { "Consuelda de hoja brillante": 8, "Extracto de Arcano Puro": 5 } }
+  "T6_POTIONS": {
+    "T6_CURATIVE_MAJOR": {
+      "name": "Poción de curación mayor",
+      "tier": 6,
+      "outputQuantity": 5,
+      "enchantments": {
+        "0": { "ingredients": { "Dedalera esquiva": 72, "Huevos de ganso": 18, "Schnapps de patata": 18 } },
+        "1": { "ingredients": { "Dedalera esquiva": 72, "Huevos de ganso": 18, "Schnapps de patata": 18, "Extracto básico de Arcano": 45 } },
+        "2": { "ingredients": { "Dedalera esquiva": 72, "Huevos de ganso": 18, "Schnapps de patata": 18, "Extracto de arcano refinado": 45 } },
+        "3": { "ingredients": { "Dedalera esquiva": 72, "Huevos de ganso": 18, "Schnapps de patata": 18, "Extracto de Arcano Puro": 45 } }
+      }
+    },
+    "T6_ENERGY_MAJOR": {
+      "name": "Poción de energia mayor",
+      "tier": 6,
+      "outputQuantity": 5,
+      "enchantments": {
+        "0": { "ingredients": { "Dedalera esquiva": 72, "Leche de oveja": 18, "Schnapps de patata": 18 } },
+        "1": { "ingredients": { "Dedalera esquiva": 72, "Leche de oveja": 18, "Schnapps de patata": 18, "Extracto básico de Arcano": 45 } },
+        "2": { "ingredients": { "Dedalera esquiva": 72, "Leche de oveja": 18, "Schnapps de patata": 18, "Extracto de arcano refinado": 45 } },
+        "3": { "ingredients": { "Dedalera esquiva": 72, "Leche de oveja": 18, "Schnapps de patata": 18, "Extracto de Arcano Puro": 45 } }
+      }
+    },
+    "T6_VENOM": {
+      "name": "Poción de veneno",
+      "tier": 6,
+      "outputQuantity": 5,
+      "enchantments": {
+        "0": { "ingredients": { "Dedalera esquiva": 24, "Dragón Teasel": 12, "Consuelda de hoja brillante": 12, "Leche de oveja": 6 } },
+        "1": { "ingredients": { "Dedalera esquiva": 24, "Dragón Teasel": 12, "Consuelda de hoja brillante": 12, "Leche de oveja": 6, "Extracto básico de Arcano": 15 } },
+        "2": { "ingredients": { "Dedalera esquiva": 24, "Dragón Teasel": 12, "Consuelda de hoja brillante": 12, "Leche de oveja": 6, "Extracto de arcano refinado": 15 } },
+        "3": { "ingredients": { "Dedalera esquiva": 24, "Dragón Teasel": 12, "Consuelda de hoja brillante": 12, "Leche de oveja": 6, "Extracto de Arcano Puro": 15 } }
+      }
+    },
+    "T6_BERSERKER": {
+      "name": "Poción de berserker",
+      "tier": 6,
+      "outputQuantity": 10,
+      "enchantments": {
+        "0": { "ingredients": { "Dedalera esquiva": 24, "Agárico arcano": 12, "Schnapps de patata": 6, "Hermosos colmillos de hombre lobo": 1 } },
+        "1": { "ingredients": { "Dedalera esquiva": 24, "Agárico arcano": 12, "Schnapps de patata": 6, "Hermosos colmillos de hombre lobo": 1, "Extracto básico de Arcano": 15 } },
+        "2": { "ingredients": { "Dedalera esquiva": 24, "Agárico arcano": 12, "Schnapps de patata": 6, "Hermosos colmillos de hombre lobo": 1, "Extracto de arcano refinado": 15 } },
+        "3": { "ingredients": { "Dedalera esquiva": 24, "Agárico arcano": 12, "Schnapps de patata": 6, "Hermosos colmillos de hombre lobo": 1, "Extracto de Arcano Puro": 15 } }
+      }
+    },
+    "T6_FIRE_INFERNAL": {
+      "name": "Poción de fuego infernal",
+      "tier": 6,
+      "outputQuantity": 10,
+      "enchantments": {
+        "0": { "ingredients": { "Leche de oveja": 24, "Dedalera esquiva": 12, "Huevos de gallina": 6, "El cuerno de un buen diablillo": 1 } },
+        "1": { "ingredients": { "Leche de oveja": 24, "Dedalera esquiva": 12, "Huevos de gallina": 6, "El cuerno de un buen diablillo": 1, "Extracto básico de Arcano": 15 } },
+        "2": { "ingredients": { "Leche de oveja": 24, "Dedalera esquiva": 12, "Huevos de gallina": 6, "El cuerno de un buen diablillo": 1, "Extracto de arcano refinado": 15 } },
+        "3": { "ingredients": { "Leche de oveja": 24, "Dedalera esquiva": 12, "Huevos de gallina": 6, "El cuerno de un buen diablillo": 1, "Extracto de Arcano Puro": 15 } }
+      }
+    },
+    "T6_GATHERING": {
+      "name": "Poción de recolección",
+      "tier": 6,
+      "outputQuantity": 5,
+      "enchantments": {
+        "0": { "ingredients": { "Mantequilla de oveja": 24, "Dedalera esquiva": 12, "Dragón Teasel": 6, "Diente fino de piedra rúnica": 1 } },
+        "1": { "ingredients": { "Mantequilla de oveja": 24, "Dedalera esquiva": 12, "Dragón Teasel": 6, "Diente fino de piedra rúnica": 1, "Extracto básico de Arcano": 15 } },
+        "2": { "ingredients": { "Mantequilla de oveja": 24, "Dedalera esquiva": 12, "Dragón Teasel": 6, "Diente fino de piedra rúnica": 1, "Extracto de arcano refinado": 15 } },
+        "3": { "ingredients": { "Mantequilla de oveja": 24, "Dedalera esquiva": 12, "Dragón Teasel": 6, "Diente fino de piedra rúnica": 1, "Extracto de Arcano Puro": 15 } }
+      }
+    },
+    "T6_TORNADO": {
+      "name": "Tornado en una botella",
+      "tier": 6,
+      "outputQuantity": 5,
+      "enchantments": {
+        "0": { "ingredients": { "Dedalera esquiva": 24, "Dragón Teasel": 12, "Huevos de gallina": 6, "Hermosa pluma del amanecer": 1 } },
+        "1": { "ingredients": { "Dedalera esquiva": 24, "Dragón Teasel": 12, "Huevos de gallina": 6, "Hermosa pluma del amanecer": 1, "Extracto básico de Arcano": 15 } },
+        "2": { "ingredients": { "Dedalera esquiva": 24, "Dragón Teasel": 12, "Huevos de gallina": 6, "Hermosa pluma del amanecer": 1, "Extracto de arcano refinado": 15 } },
+        "3": { "ingredients": { "Dedalera esquiva": 24, "Dragón Teasel": 12, "Huevos de gallina": 6, "Hermosa pluma del amanecer": 1, "Extracto de Arcano Puro": 15 } }
+      }
     }
   },
-  "T3_CALM_MINOR": {
-    "name": "Poción de calma menor",
-    "tier": 3,
-    "outputQuantity": 10,
-    "enchantments": {
-      "0": { "ingredients": { "Consuelda de hoja brillante": 16, "Garras de sombra resistentes": 1 } },
-      "1": { "ingredients": { "Consuelda de hoja brillante": 16, "Garras de sombra resistentes": 1, "Extracto básico de Arcano": 10 } },
-      "2": { "ingredients": { "Consuelda de hoja brillante": 16, "Garras de sombra resistentes": 1, "Extracto de arcano refinado": 10 } },
-      "3": { "ingredients": { "Consuelda de hoja brillante": 16, "Garras de sombra resistentes": 1, "Extracto de Arcano Puro": 10 } }
+  "T7_POTIONS": {
+    "T7_GIANTISM_MAJOR": {
+      "name": "Poción de gigantismo mayor",
+      "tier": 7,
+      "outputQuantity": 5,
+      "enchantments": {
+        "0": { "ingredients": { "Mullein tocado con fuego": 72, "Dedalera esquiva": 36, "Huevos de ganso": 18, "Orujo de maíz": 18 } },
+        "1": { "ingredients": { "Mullein tocado con fuego": 72, "Dedalera esquiva": 36, "Huevos de ganso": 18, "Orujo de maíz": 18, "Extracto básico de Arcano": 45 } },
+        "2": { "ingredients": { "Mullein tocado con fuego": 72, "Dedalera esquiva": 36, "Huevos de ganso": 18, "Orujo de maíz": 18, "Extracto de arcano refinado": 45 } },
+        "3": { "ingredients": { "Mullein tocado con fuego": 72, "Dedalera esquiva": 36, "Huevos de ganso": 18, "Orujo de maíz": 18, "Extracto de Arcano Puro": 45 } }
+      }
+    },
+    "T7_RESISTANCE_MAJOR": {
+      "name": "Poción de resistencia mayor",
+      "tier": 7,
+      "outputQuantity": 5,
+      "enchantments": {
+        "0": { "ingredients": { "Mullein tocado con fuego": 72, "Dedalera esquiva": 36, "Bardana almenada": 36, "Leche de oveja": 18, "Orujo de maíz": 18 } },
+        "1": { "ingredients": { "Mullein tocado con fuego": 72, "Dedalera esquiva": 36, "Bardana almenada": 36, "Leche de oveja": 18, "Orujo de maíz": 18, "Extracto básico de Arcano": 45 } },
+        "2": { "ingredients": { "Mullein tocado con fuego": 72, "Dedalera esquiva": 36, "Bardana almenada": 36, "Leche de oveja": 18, "Orujo de maíz": 18, "Extracto de arcano refinado": 45 } },
+        "3": { "ingredients": { "Mullein tocado con fuego": 72, "Dedalera esquiva": 36, "Bardana almenada": 36, "Leche de oveja": 18, "Orujo de maíz": 18, "Extracto de Arcano Puro": 45 } }
+      }
+    },
+    "T7_STICKY_MAJOR": {
+      "name": "Poción de pegajosa mayor",
+      "tier": 7,
+      "outputQuantity": 5,
+      "enchantments": {
+        "0": { "ingredients": { "Mullein tocado con fuego": 72, "Dedalera esquiva": 36, "Bardana almenada": 36, "Huevos de ganso": 18, "Orujo de maíz": 18 } },
+        "1": { "ingredients": { "Mullein tocado con fuego": 72, "Dedalera esquiva": 36, "Bardana almenada": 36, "Huevos de ganso": 18, "Orujo de maíz": 18, "Extracto básico de Arcano": 45 } },
+        "2": { "ingredients": { "Mullein tocado con fuego": 72, "Dedalera esquiva": 36, "Bardana almenada": 36, "Huevos de ganso": 18, "Orujo de maíz": 18, "Extracto de arcano refinado": 45 } },
+        "3": { "ingredients": { "Mullein tocado con fuego": 72, "Dedalera esquiva": 36, "Bardana almenada": 36, "Huevos de ganso": 18, "Orujo de maíz": 18, "Extracto de Arcano Puro": 45 } }
+      }
+    },
+    "T7_CALM_MAJOR": {
+      "name": "Poción de calma mayor",
+      "tier": 7,
+      "outputQuantity": 10,
+      "enchantments": {
+        "0": { "ingredients": { "Mullein tocado con fuego": 144, "Dedalera esquiva": 72, "Consuelda de hoja brillante": 72, "Agárico arcano": 36, "Orujo de maíz": 36, "Excelentes garras de sombra": 1 } },
+        "1": { "ingredients": { "Mullein tocado con fuego": 144, "Dedalera esquiva": 72, "Consuelda de hoja brillante": 72, "Agárico arcano": 36, "Orujo de maíz": 36, "Excelentes garras de sombra": 1, "Extracto básico de Arcano": 90 } },
+        "2": { "ingredients": { "Mullein tocado con fuego": 144, "Dedalera esquiva": 72, "Consuelda de hoja brillante": 72, "Agárico arcano": 36, "Orujo de maíz": 36, "Excelentes garras de sombra": 1, "Extracto de arcano refinado": 90 } },
+        "3": { "ingredients": { "Mullein tocado con fuego": 144, "Dedalera esquiva": 72, "Consuelda de hoja brillante": 72, "Agárico arcano": 36, "Orujo de maíz": 36, "Excelentes garras de sombra": 1, "Extracto de Arcano Puro": 90 } }
+      }
+    },
+    "T7_CLEANSE_MAJOR": {
+      "name": "Poción de limpieza mayor",
+      "tier": 7,
+      "outputQuantity": 5,
+      "enchantments": {
+        "0": { "ingredients": { "Mullein tocado con fuego": 72, "Bardana almenada": 36, "Consuelda de hoja brillante": 36, "Mantequilla de oveja": 18, "Orujo de maíz": 18, "Excelente raíz de silvio": 1 } },
+        "1": { "ingredients": { "Mullein tocado con fuego": 72, "Bardana almenada": 36, "Consuelda de hoja brillante": 36, "Mantequilla de oveja": 18, "Orujo de maíz": 18, "Excelente raíz de silvio": 1, "Extracto básico de Arcano": 45 } },
+        "2": { "ingredients": { "Mullein tocado con fuego": 72, "Bardana almenada": 36, "Consuelda de hoja brillante": 36, "Mantequilla de oveja": 18, "Orujo de maíz": 18, "Excelente raíz de silvio": 1, "Extracto de arcano refinado": 45 } },
+        "3": { "ingredients": { "Mullein tocado con fuego": 72, "Bardana almenada": 36, "Consuelda de hoja brillante": 36, "Mantequilla de oveja": 18, "Orujo de maíz": 18, "Excelente raíz de silvio": 1, "Extracto de Arcano Puro": 45 } }
+      }
+    },
+    "T7_ACID_MAJOR": {
+      "name": "Poción de ácido mayor",
+      "tier": 7,
+      "outputQuantity": 10,
+      "enchantments": {
+        "0": { "ingredients": { "Mullein tocado con fuego": 144, "Dedalera esquiva": 72, "Schnapps de patata": 72, "Leche de oveja": 36, "Orujo de maíz": 36, "Excelentes patas espirituales": 1 } },
+        "1": { "ingredients": { "Mullein tocado con fuego": 144, "Dedalera esquiva": 72, "Schnapps de patata": 72, "Leche de oveja": 36, "Orujo de maíz": 36, "Excelentes patas espirituales": 1, "Extracto básico de Arcano": 90 } },
+        "2": { "ingredients": { "Mullein tocado con fuego": 144, "Dedalera esquiva": 72, "Schnapps de patata": 72, "Leche de oveja": 36, "Orujo de maíz": 36, "Excelentes patas espirituales": 1, "Extracto de arcano refinado": 90 } },
+        "3": { "ingredients": { "Mullein tocado con fuego": 144, "Dedalera esquiva": 72, "Schnapps de patata": 72, "Leche de oveja": 36, "Orujo de maíz": 36, "Excelentes patas espirituales": 1, "Extracto de Arcano Puro": 90 } }
+      }
     }
   },
-  "T3_CLEANSE_MINOR": {
-    "name": "Poción de limpieza menor",
-    "tier": 3,
-    "outputQuantity": 10,
-    "enchantments": {
-      "0": { "ingredients": { "Consuelda de hoja brillante": 16, "Raíz de silvio rugosa": 1 } },
-      "1": { "ingredients": { "Consuelda de hoja brillante": 16, "Raíz de silvio rugosa": 1, "Extracto básico de Arcano": 10 } },
-      "2": { "ingredients": { "Consuelda de hoja brillante": 16, "Raíz de silvio rugosa": 1, "Extracto de arcano refinado": 10 } },
-      "3": { "ingredients": { "Consuelda de hoja brillante": 16, "Raíz de silvio rugosa": 1, "Extracto de Arcano Puro": 10 } }
-    }
-  },
-  "T3_ACID_MINOR": {
-    "name": "Poción de ácido menor",
-    "tier": 3,
-    "outputQuantity": 10,
-    "enchantments": {
-      "0": { "ingredients": { "Consuelda de hoja brillante": 16, "Patas espirituales resistentes": 1 } },
-      "1": { "ingredients": { "Consuelda de hoja brillante": 16, "Patas espirituales resistentes": 1, "Extracto básico de Arcano": 10 } },
-      "2": { "ingredients": { "Consuelda de hoja brillante": 16, "Patas espirituales resistentes": 1, "Extracto de arcano refinado": 10 } },
-      "3": { "ingredients": { "Consuelda de hoja brillante": 16, "Patas espirituales resistentes": 1, "Extracto de Arcano Puro": 10 } }
-    }
-  },
-  "T4_CURATIVE": {
-    "name": "Poción de curación",
-    "tier": 4,
-    "outputQuantity": 5,
-    "enchantments": {
-      "0": { "ingredients": { "Bardana almenada": 24, "Huevos de gallina": 6 } },
-      "1": { "ingredients": { "Bardana almenada": 24, "Huevos de gallina": 6, "Extracto básico de Arcano": 15 } },
-      "2": { "ingredients": { "Bardana almenada": 24, "Huevos de gallina": 6, "Extracto de arcano refinado": 15 } },
-      "3": { "ingredients": { "Bardana almenada": 24, "Huevos de gallina": 6, "Extracto de Arcano Puro": 15 } }
-    }
-  },
-  "T4_ENERGY": {
-    "name": "Poción de energia",
-    "tier": 4,
-    "outputQuantity": 5,
-    "enchantments": {
-      "0": { "ingredients": { "Bardana almenada": 24, "Leche de cabra": 6 } },
-      "1": { "ingredients": { "Bardana almenada": 24, "Leche de cabra": 6, "Extracto básico de Arcano": 15 } },
-      "2": { "ingredients": { "Bardana almenada": 24, "Leche de cabra": 6, "Extracto de arcano refinado": 15 } },
-      "3": { "ingredients": { "Bardana almenada": 24, "Leche de cabra": 6, "Extracto de Arcano Puro": 15 } }
-    }
-  },
-  "T4_VENOM_MINOR": {
-    "name": "Poción de veneno menor",
-    "tier": 4,
-    "outputQuantity": 5,
-    "enchantments": {
-      "0": { "ingredients": { "Bardana almenada": 8, "Consuelda de hoja brillante": 4 } },
-      "1": { "ingredients": { "Bardana almenada": 8, "Consuelda de hoja brillante": 4, "Extracto básico de Arcano": 5 } },
-      "2": { "ingredients": { "Bardana almenada": 8, "Consuelda de hoja brillante": 4, "Extracto de arcano refinado": 5 } },
-      "3": { "ingredients": { "Bardana almenada": 8, "Consuelda de hoja brillante": 4, "Extracto de Arcano Puro": 5 } }
-    }
-  },
-  "T4_BERSERKER_MINOR": {
-    "name": "Poción de berserker menor",
-    "tier": 4,
-    "outputQuantity": 10,
-    "enchantments": {
-      "0": { "ingredients": { "Bardana almenada": 8, "Colmillos de hombre lobo resistentes": 1 } },
-      "1": { "ingredients": { "Bardana almenada": 8, "Colmillos de hombre lobo resistentes": 1, "Extracto básico de Arcano": 5 } },
-      "2": { "ingredients": { "Bardana almenada": 8, "Colmillos de hombre lobo resistentes": 1, "Extracto de arcano refinado": 5 } },
-      "3": { "ingredients": { "Bardana almenada": 8, "Colmillos de hombre lobo resistentes": 1, "Extracto de Arcano Puro": 5 } }
-    }
-  },
-  "T4_TORNADO_MINOR": {
-    "name": "Tornado en botella menor",
-    "tier": 4,
-    "outputQuantity": 10,
-    "enchantments": {
-      "0": { "ingredients": { "Bardana almenada": 8, "Pluma de amanecer resistente": 1 } },
-      "1": { "ingredients": { "Bardana almenada": 8, "Pluma de amanecer resistente": 1, "Extracto básico de Arcano": 5 } },
-      "2": { "ingredients": { "Bardana almenada": 8, "Pluma de amanecer resistente": 1, "Extracto de arcano refinado": 5 } },
-      "3": { "ingredients": { "Bardana almenada": 8, "Pluma de amanecer resistente": 1, "Extracto de Arcano Puro": 5 } }
-    }
-  },
-  "T4_FIRE_INFERNAL_MINOR": {
-    "name": "Poción de fuego infernal menor",
-    "tier": 4,
-    "outputQuantity": 10,
-    "enchantments": {
-      "0": { "ingredients": { "Leche de cabra": 8, "Cuerno de diablillo robusto": 1 } },
-      "1": { "ingredients": { "Leche de cabra": 8, "Cuerno de diablillo robusto": 1, "Extracto básico de Arcano": 5 } },
-      "2": { "ingredients": { "Leche de cabra": 8, "Cuerno de diablillo robusto": 1, "Extracto de arcano refinado": 5 } },
-      "3": { "ingredients": { "Leche de cabra": 8, "Cuerno de diablillo robusto": 1, "Extracto de Arcano Puro": 5 } }
-    }
-  },
-  "T4_GATHERING_MINOR": {
-    "name": "Poción de recolección menor",
-    "tier": 4,
-    "outputQuantity": 10,
-    "enchantments": {
-      "0": { "ingredients": { "Mantequilla de cabra": 8, "Diente de piedra rúnica resistente": 1 } },
-      "1": { "ingredients": { "Mantequilla de cabra": 8, "Diente de piedra rúnica resistente": 1, "Extracto básico de Arcano": 5 } },
-      "2": { "ingredients": { "Mantequilla de cabra": 8, "Diente de piedra rúnica resistente": 1, "Extracto de arcano refinado": 5 } },
-      "3": { "ingredients": { "Mantequilla de cabra": 8, "Diente de piedra rúnica resistente": 1, "Extracto de Arcano Puro": 5 } }
-    }
-  },
-  "T5_RESISTANCE": {
-    "name": "Poción de resistencia",
-    "tier": 5,
-    "outputQuantity": 5,
-    "enchantments": {
-      "0": { "ingredients": { "Dragón Teasel": 24, "Bardana almenada": 12, "Leche de cabra": 6 } },
-      "1": { "ingredients": { "Dragón Teasel": 24, "Bardana almenada": 12, "Leche de cabra": 6, "Extracto básico de Arcano": 15 } },
-      "2": { "ingredients": { "Dragón Teasel": 24, "Bardana almenada": 12, "Leche de cabra": 6, "Extracto de arcano refinado": 15 } },
-      "3": { "ingredients": { "Dragón Teasel": 24, "Bardana almenada": 12, "Leche de cabra": 6, "Extracto de Arcano Puro": 15 } }
-    }
-  },
-  "T5_STICKY": {
-    "name": "Poción pegajosa",
-    "tier": 5,
-    "outputQuantity": 5,
-    "enchantments": {
-      "0": { "ingredients": { "Dragón Teasel": 24, "Bardana almenada": 12, "Huevos de ganso": 6 } },
-      "1": { "ingredients": { "Dragón Teasel": 24, "Bardana almenada": 12, "Huevos de ganso": 6, "Extracto básico de Arcano": 15 } },
-      "2": { "ingredients": { "Dragón Teasel": 24, "Bardana almenada": 12, "Huevos de ganso": 6, "Extracto de arcano refinado": 15 } },
-      "3": { "ingredients": { "Dragón Teasel": 24, "Bardana almenada": 12, "Huevos de ganso": 6, "Extracto de Arcano Puro": 15 } }
-    }
-  },
-  "T5_GIANTISM": {
-    "name": "Poción de gigantismo",
-    "tier": 5,
-    "outputQuantity": 5,
-    "enchantments": {
-      "0": { "ingredients": { "Dragón Teasel": 24, "Bardana almenada": 12, "Huevos de ganso": 6 } },
-      "1": { "ingredients": { "Dragón Teasel": 24, "Bardana almenada": 12, "Huevos de ganso": 6, "Extracto básico de Arcano": 15 } },
-      "2": { "ingredients": { "Dragón Teasel": 24, "Bardana almenada": 12, "Huevos de ganso": 6, "Extracto de arcano refinado": 15 } },
-      "3": { "ingredients": { "Dragón Teasel": 24, "Bardana almenada": 12, "Huevos de ganso": 6, "Extracto de Arcano Puro": 15 } }
-    }
-  },
-  "T5_CLEANSE": {
-    "name": "Poción de limpieza",
-    "tier": 5,
-    "outputQuantity": 5,
-    "enchantments": {
-      "0": { "ingredients": { "Dragón Teasel": 24, "Consuelda de hoja brillante": 12, "Mantequilla de cabra": 6, "Raíz fina de Silvio": 1 } },
-      "1": { "ingredients": { "Dragón Teasel": 24, "Consuelda de hoja brillante": 12, "Mantequilla de cabra": 6, "Raíz fina de Silvio": 1, "Extracto básico de Arcano": 15 } },
-      "2": { "ingredients": { "Dragón Teasel": 24, "Consuelda de hoja brillante": 12, "Mantequilla de cabra": 6, "Raíz fina de Silvio": 1, "Extracto de arcano refinado": 15 } },
-      "3": { "ingredients": { "Dragón Teasel": 24, "Consuelda de hoja brillante": 12, "Mantequilla de cabra": 6, "Raíz fina de Silvio": 1, "Extracto de Arcano Puro": 15 } }
-    }
-  },
-  "T5_CALM": {
-    "name": "Poción de calma",
-    "tier": 5,
-    "outputQuantity": 10,
-    "enchantments": {
-      "0": { "ingredients": { "Dragón Teasel": 48, "Bardana almenada": 24, "Agárico arcano": 12, "Garras de sombra finas": 1 } },
-      "1": { "ingredients": { "Dragón Teasel": 48, "Bardana almenada": 24, "Agárico arcano": 12, "Garras de sombra finas": 1, "Extracto básico de Arcano": 30 } },
-      "2": { "ingredients": { "Dragón Teasel": 48, "Bardana almenada": 24, "Agárico arcano": 12, "Garras de sombra finas": 1, "Extracto de arcano refinado": 30 } },
-      "3": { "ingredients": { "Dragón Teasel": 48, "Bardana almenada": 24, "Agárico arcano": 12, "Garras de sombra finas": 1, "Extracto de Arcano Puro": 30 } }
-    }
-  },
-  "T5_ACID": {
-    "name": "Poción de ácido",
-    "tier": 5,
-    "outputQuantity": 10,
-    "enchantments": {
-      "0": { "ingredients": { "Dragón Teasel": 48, "Bardana almenada": 24, "Leche de cabra": 12, "Patas de espíritu fino": 1 } },
-      "1": { "ingredients": { "Dragón Teasel": 48, "Bardana almenada": 24, "Leche de cabra": 12, "Patas de espíritu fino": 1, "Extracto básico de Arcano": 30 } },
-      "2": { "ingredients": { "Dragón Teasel": 48, "Bardana almenada": 24, "Leche de cabra": 12, "Patas de espíritu fino": 1, "Extracto de arcano refinado": 30 } },
-      "3": { "ingredients": { "Dragón Teasel": 48, "Bardana almenada": 24, "Leche de cabra": 12, "Patas de espíritu fino": 1, "Extracto de Arcano Puro": 30 } }
-    }
-  },
-  "T6_CURATIVE_MAJOR": {
-    "name": "Poción de curación mayor",
-    "tier": 6,
-    "outputQuantity": 5,
-    "enchantments": {
-      "0": { "ingredients": { "Dedalera esquiva": 72, "Huevos de ganso": 18, "Schnapps de patata": 18 } },
-      "1": { "ingredients": { "Dedalera esquiva": 72, "Huevos de ganso": 18, "Schnapps de patata": 18, "Extracto básico de Arcano": 45 } },
-      "2": { "ingredients": { "Dedalera esquiva": 72, "Huevos de ganso": 18, "Schnapps de patata": 18, "Extracto de arcano refinado": 45 } },
-      "3": { "ingredients": { "Dedalera esquiva": 72, "Huevos de ganso": 18, "Schnapps de patata": 18, "Extracto de Arcano Puro": 45 } }
-    }
-  },
-  "T6_ENERGY_MAJOR": {
-    "name": "Poción de energia mayor",
-    "tier": 6,
-    "outputQuantity": 5,
-    "enchantments": {
-      "0": { "ingredients": { "Dedalera esquiva": 72, "Leche de oveja": 18, "Schnapps de patata": 18 } },
-      "1": { "ingredients": { "Dedalera esquiva": 72, "Leche de oveja": 18, "Schnapps de patata": 18, "Extracto básico de Arcano": 45 } },
-      "2": { "ingredients": { "Dedalera esquiva": 72, "Leche de oveja": 18, "Schnapps de patata": 18, "Extracto de arcano refinado": 45 } },
-      "3": { "ingredients": { "Dedalera esquiva": 72, "Leche de oveja": 18, "Schnapps de patata": 18, "Extracto de Arcano Puro": 45 } }
-    }
-  },
-  "T6_VENOM": {
-    "name": "Poción de veneno",
-    "tier": 6,
-    "outputQuantity": 5,
-    "enchantments": {
-      "0": { "ingredients": { "Dedalera esquiva": 24, "Dragón Teasel": 12, "Consuelda de hoja brillante": 12, "Leche de oveja": 6 } },
-      "1": { "ingredients": { "Dedalera esquiva": 24, "Dragón Teasel": 12, "Consuelda de hoja brillante": 12, "Leche de oveja": 6, "Extracto básico de Arcano": 15 } },
-      "2": { "ingredients": { "Dedalera esquiva": 24, "Dragón Teasel": 12, "Consuelda de hoja brillante": 12, "Leche de oveja": 6, "Extracto de arcano refinado": 15 } },
-      "3": { "ingredients": { "Dedalera esquiva": 24, "Dragón Teasel": 12, "Consuelda de hoja brillante": 12, "Leche de oveja": 6, "Extracto de Arcano Puro": 15 } }
-    }
-  },
-  "T6_BERSERKER": {
-    "name": "Poción de berserker",
-    "tier": 6,
-    "outputQuantity": 10,
-    "enchantments": {
-      "0": { "ingredients": { "Dedalera esquiva": 24, "Agárico arcano": 12, "Schnapps de patata": 6, "Hermosos colmillos de hombre lobo": 1 } },
-      "1": { "ingredients": { "Dedalera esquiva": 24, "Agárico arcano": 12, "Schnapps de patata": 6, "Hermosos colmillos de hombre lobo": 1, "Extracto básico de Arcano": 15 } },
-      "2": { "ingredients": { "Dedalera esquiva": 24, "Agárico arcano": 12, "Schnapps de patata": 6, "Hermosos colmillos de hombre lobo": 1, "Extracto de arcano refinado": 15 } },
-      "3": { "ingredients": { "Dedalera esquiva": 24, "Agárico arcano": 12, "Schnapps de patata": 6, "Hermosos colmillos de hombre lobo": 1, "Extracto de Arcano Puro": 15 } }
-    }
-  },
-  "T6_FIRE_INFERNAL": {
-    "name": "Poción de fuego infernal",
-    "tier": 6,
-    "outputQuantity": 10,
-    "enchantments": {
-      "0": { "ingredients": { "Leche de oveja": 24, "Dedalera esquiva": 12, "Huevos de gallina": 6, "El cuerno de un buen diablillo": 1 } },
-      "1": { "ingredients": { "Leche de oveja": 24, "Dedalera esquiva": 12, "Huevos de gallina": 6, "El cuerno de un buen diablillo": 1, "Extracto básico de Arcano": 15 } },
-      "2": { "ingredients": { "Leche de oveja": 24, "Dedalera esquiva": 12, "Huevos de gallina": 6, "El cuerno de un buen diablillo": 1, "Extracto de arcano refinado": 15 } },
-      "3": { "ingredients": { "Leche de oveja": 24, "Dedalera esquiva": 12, "Huevos de gallina": 6, "El cuerno de un buen diablillo": 1, "Extracto de Arcano Puro": 15 } }
-    }
-  },
-  "T6_GATHERING": {
-    "name": "Poción de recolección",
-    "tier": 6,
-    "outputQuantity": 5,
-    "enchantments": {
-      "0": { "ingredients": { "Mantequilla de oveja": 24, "Dedalera esquiva": 12, "Dragón Teasel": 6, "Diente fino de piedra rúnica": 1 } },
-      "1": { "ingredients": { "Mantequilla de oveja": 24, "Dedalera esquiva": 12, "Dragón Teasel": 6, "Diente fino de piedra rúnica": 1, "Extracto básico de Arcano": 15 } },
-      "2": { "ingredients": { "Mantequilla de oveja": 24, "Dedalera esquiva": 12, "Dragón Teasel": 6, "Diente fino de piedra rúnica": 1, "Extracto de arcano refinado": 15 } },
-      "3": { "ingredients": { "Mantequilla de oveja": 24, "Dedalera esquiva": 12, "Dragón Teasel": 6, "Diente fino de piedra rúnica": 1, "Extracto de Arcano Puro": 15 } }
-    }
-  },
-  "T6_TORNADO": {
-    "name": "Tornado en una botella",
-    "tier": 6,
-    "outputQuantity": 5,
-    "enchantments": {
-      "0": { "ingredients": { "Dedalera esquiva": 24, "Dragón Teasel": 12, "Huevos de gallina": 6, "Hermosa pluma del amanecer": 1 } },
-      "1": { "ingredients": { "Dedalera esquiva": 24, "Dragón Teasel": 12, "Huevos de gallina": 6, "Hermosa pluma del amanecer": 1, "Extracto básico de Arcano": 15 } },
-      "2": { "ingredients": { "Dedalera esquiva": 24, "Dragón Teasel": 12, "Huevos de gallina": 6, "Hermosa pluma del amanecer": 1, "Extracto de arcano refinado": 15 } },
-      "3": { "ingredients": { "Dedalera esquiva": 24, "Dragón Teasel": 12, "Huevos de gallina": 6, "Hermosa pluma del amanecer": 1, "Extracto de Arcano Puro": 15 } }
-    }
-  },
-  "T7_GIANTISM_MAJOR": {
-    "name": "Poción de gigantismo mayor",
-    "tier": 7,
-    "outputQuantity": 5,
-    "enchantments": {
-      "0": { "ingredients": { "Mullein tocado con fuego": 72, "Dedalera esquiva": 36, "Huevos de ganso": 18, "Orujo de maíz": 18 } },
-      "1": { "ingredients": { "Mullein tocado con fuego": 72, "Dedalera esquiva": 36, "Huevos de ganso": 18, "Orujo de maíz": 18, "Extracto básico de Arcano": 45 } },
-      "2": { "ingredients": { "Mullein tocado con fuego": 72, "Dedalera esquiva": 36, "Huevos de ganso": 18, "Orujo de maíz": 18, "Extracto de arcano refinado": 45 } },
-      "3": { "ingredients": { "Mullein tocado con fuego": 72, "Dedalera esquiva": 36, "Huevos de ganso": 18, "Orujo de maíz": 18, "Extracto de Arcano Puro": 45 } }
-    }
-  },
-  "T7_RESISTANCE_MAJOR": {
-    "name": "Poción de resistencia mayor",
-    "tier": 7,
-    "outputQuantity": 5,
-    "enchantments": {
-      "0": { "ingredients": { "Mullein tocado con fuego": 72, "Dedalera esquiva": 36, "Bardana almenada": 36, "Leche de oveja": 18, "Orujo de maíz": 18 } },
-      "1": { "ingredients": { "Mullein tocado con fuego": 72, "Dedalera esquiva": 36, "Bardana almenada": 36, "Leche de oveja": 18, "Orujo de maíz": 18, "Extracto básico de Arcano": 45 } },
-      "2": { "ingredients": { "Mullein tocado con fuego": 72, "Dedalera esquiva": 36, "Bardana almenada": 36, "Leche de oveja": 18, "Orujo de maíz": 18, "Extracto de arcano refinado": 45 } },
-      "3": { "ingredients": { "Mullein tocado con fuego": 72, "Dedalera esquiva": 36, "Bardana almenada": 36, "Leche de oveja": 18, "Orujo de maíz": 18, "Extracto de Arcano Puro": 45 } }
-    }
-  },
-  "T7_STICKY_MAJOR": {
-    "name": "Poción pegajosa mayor",
-    "tier": 7,
-    "outputQuantity": 5,
-    "enchantments": {
-      "0": { "ingredients": { "Mullein tocado con fuego": 72, "Dedalera esquiva": 36, "Bardana almenada": 36, "Huevos de ganso": 18, "Orujo de maíz": 18 } },
-      "1": { "ingredients": { "Mullein tocado con fuego": 72, "Dedalera esquiva": 36, "Bardana almenada": 36, "Huevos de ganso": 18, "Orujo de maíz": 18, "Extracto básico de Arcano": 45 } },
-      "2": { "ingredients": { "Mullein tocado con fuego": 72, "Dedalera esquiva": 36, "Bardana almenada": 36, "Huevos de ganso": 18, "Orujo de maíz": 18, "Extracto de arcano refinado": 45 } },
-      "3": { "ingredients": { "Mullein tocado con fuego": 72, "Dedalera esquiva": 36, "Bardana almenada": 36, "Huevos de ganso": 18, "Orujo de maíz": 18, "Extracto de Arcano Puro": 45 } }
-    }
-  },
-  "T7_CALM_MAJOR": {
-    "name": "Poción de calma mayor",
-    "tier": 7,
-    "outputQuantity": 10,
-    "enchantments": {
-      "0": { "ingredients": { "Mullein tocado con fuego": 144, "Dedalera esquiva": 72, "Consuelda de hoja brillante": 72, "Agárico arcano": 36, "Orujo de maíz": 36, "Excelentes garras de sombra": 1 } },
-      "1": { "ingredients": { "Mullein tocado con fuego": 144, "Dedalera esquiva": 72, "Consuelda de hoja brillante": 72, "Agárico arcano": 36, "Orujo de maíz": 36, "Excelentes garras de sombra": 1, "Extracto básico de Arcano": 90 } },
-      "2": { "ingredients": { "Mullein tocado con fuego": 144, "Dedalera esquiva": 72, "Consuelda de hoja brillante": 72, "Agárico arcano": 36, "Orujo de maíz": 36, "Excelentes garras de sombra": 1, "Extracto de arcano refinado": 90 } },
-      "3": { "ingredients": { "Mullein tocado con fuego": 144, "Dedalera esquiva": 72, "Consuelda de hoja brillante": 72, "Agárico arcano": 36, "Orujo de maíz": 36, "Excelentes garras de sombra": 1, "Extracto de Arcano Puro": 90 } }
-    }
-  },
-  "T7_CLEANSE_MAJOR": {
-    "name": "Poción de limpieza mayor",
-    "tier": 7,
-    "outputQuantity": 5,
-    "enchantments": {
-      "0": { "ingredients": { "Mullein tocado con fuego": 72, "Bardana almenada": 36, "Consuelda de hoja brillante": 36, "Mantequilla de oveja": 18, "Orujo de maíz": 18, "Excelente raíz de silvio": 1 } },
-      "1": { "ingredients": { "Mullein tocado con fuego": 72, "Bardana almenada": 36, "Consuelda de hoja brillante": 36, "Mantequilla de oveja": 18, "Orujo de maíz": 18, "Excelente raíz de silvio": 1, "Extracto básico de Arcano": 45 } },
-      "2": { "ingredients": { "Mullein tocado con fuego": 72, "Bardana almenada": 36, "Consuelda de hoja brillante": 36, "Mantequilla de oveja": 18, "Orujo de maíz": 18, "Excelente raíz de silvio": 1, "Extracto de arcano refinado": 45 } },
-      "3": { "ingredients": { "Mullein tocado con fuego": 72, "Bardana almenada": 36, "Consuelda de hoja brillante": 36, "Mantequilla de oveja": 18, "Orujo de maíz": 18, "Excelente raíz de silvio": 1, "Extracto de Arcano Puro": 45 } }
-    }
-  },
-  "T7_ACID_MAJOR": {
-    "name": "Poción de ácido mayor",
-    "tier": 7,
-    "outputQuantity": 10,
-    "enchantments": {
-      "0": { "ingredients": { "Mullein tocado con fuego": 144, "Dedalera esquiva": 72, "Schnapps de patata": 72, "Leche de oveja": 36, "Orujo de maíz": 36, "Excelentes patas espirituales": 1 } },
-      "1": { "ingredients": { "Mullein tocado con fuego": 144, "Dedalera esquiva": 72, "Schnapps de patata": 72, "Leche de oveja": 36, "Orujo de maíz": 36, "Excelentes patas espirituales": 1, "Extracto básico de Arcano": 90 } },
-      "2": { "ingredients": { "Mullein tocado con fuego": 144, "Dedalera esquiva": 72, "Schnapps de patata": 72, "Leche de oveja": 36, "Orujo de maíz": 36, "Excelentes patas espirituales": 1, "Extracto de arcano refinado": 90 } },
-      "3": { "ingredients": { "Mullein tocado con fuego": 144, "Dedalera esquiva": 72, "Schnapps de patata": 72, "Leche de oveja": 36, "Orujo de maíz": 36, "Excelentes patas espirituales": 1, "Extracto de Arcano Puro": 90 } }
-    }
-  },
-  "T8_VENOM_MAJOR": {
-    "name": "Poción de veneno mayor",
-    "tier": 8,
-    "outputQuantity": 5,
-    "enchantments": {
-      "0": { "ingredients": { "Milenrama de ghoul": 72, "Mullein tocado con fuego": 36, "Dragón Teasel": 36, "Leche de vaca": 18, "Aguardiente de calabaza": 18 } },
-      "1": { "ingredients": { "Milenrama de ghoul": 72, "Mullein tocado con fuego": 36, "Dragón Teasel": 36, "Leche de vaca": 18, "Aguardiente de calabaza": 18, "Extracto básico de Arcano": 45 } },
-      "2": { "ingredients": { "Milenrama de ghoul": 72, "Mullein tocado con fuego": 36, "Dragón Teasel": 36, "Leche de vaca": 18, "Aguardiente de calabaza": 18, "Extracto de arcano refinado": 45 } },
-      "3": { "ingredients": { "Milenrama de ghoul": 72, "Mullein tocado con fuego": 36, "Dragón Teasel": 36, "Leche de vaca": 18, "Aguardiente de calabaza": 18, "Extracto de Arcano Puro": 45 } }
-    }
-  },
-  "T8_INVISIBILITY": {
-    "name": "Poción de invisibilidad",
-    "tier": 8,
-    "outputQuantity": 5,
-    "enchantments": {
-      "0": { "ingredients": { "Milenrama de ghoul": 72, "Dedalera esquiva": 36, "Dragón Teasel": 36, "Leche de vaca": 18, "Aguardiente de calabaza": 18 } },
-      "1": { "ingredients": { "Milenrama de ghoul": 72, "Dedalera esquiva": 36, "Dragón Teasel": 36, "Leche de vaca": 18, "Aguardiente de calabaza": 18, "Extracto básico de Arcano": 45 } },
-      "2": { "ingredients": { "Milenrama de ghoul": 72, "Dedalera esquiva": 36, "Dragón Teasel": 36, "Leche de vaca": 18, "Aguardiente de calabaza": 18, "Extracto de arcano refinado": 45 } },
-      "3": { "ingredients": { "Milenrama de ghoul": 72, "Dedalera esquiva": 36, "Dragón Teasel": 36, "Leche de vaca": 18, "Aguardiente de calabaza": 18, "Extracto de Arcano Puro": 45 } }
-    }
-  },
-  "T8_BERSERKER_MAJOR": {
-    "name": "Poción de berserker mayor",
-    "tier": 8,
-    "outputQuantity": 10,
-    "enchantments": {
-      "0": { "ingredients": { "Milenrama de ghoul": 72, "Consuelda de hoja brillante": 36, "Schnapps de patata": 36, "Orujo de maíz": 18, "Aguardiente de calabaza": 18, "Excelentes colmillos de hombre lobo": 1 } },
-      "1": { "ingredients": { "Milenrama de ghoul": 72, "Consuelda de hoja brillante": 36, "Schnapps de patata": 36, "Orujo de maíz": 18, "Aguardiente de calabaza": 18, "Excelentes colmillos de hombre lobo": 1, "Extracto básico de Arcano": 45 } },
-      "2": { "ingredients": { "Milenrama de ghoul": 72, "Consuelda de hoja brillante": 36, "Schnapps de patata": 36, "Orujo de maíz": 18, "Aguardiente de calabaza": 18, "Excelentes colmillos de hombre lobo": 1, "Extracto de arcano refinado": 45 } },
-      "3": { "ingredients": { "Milenrama de ghoul": 72, "Consuelda de hoja brillante": 36, "Schnapps de patata": 36, "Orujo de maíz": 18, "Aguardiente de calabaza": 18, "Excelentes colmillos de hombre lobo": 1, "Extracto de Arcano Puro": 45 } }
-    }
-  },
-  "T8_FIRE_INFERNAL_MAJOR": {
-    "name": "Poción de fuego infernal mayor",
-    "tier": 8,
-    "outputQuantity": 5,
-    "enchantments": {
-      "0": { "ingredients": { "Leche de vaca": 72, "Milenrama de ghoul": 36, "Mullein tocado con fuego": 36, "Huevos de ganso": 18, "Aguardiente de calabaza": 18 } },
-      "1": { "ingredients": { "Leche de vaca": 72, "Milenrama de ghoul": 36, "Mullein tocado con fuego": 36, "Huevos de ganso": 18, "Aguardiente de calabaza": 18, "Extracto básico de Arcano": 45 } },
-      "2": { "ingredients": { "Leche de vaca": 72, "Milenrama de ghoul": 36, "Mullein tocado con fuego": 36, "Huevos de ganso": 18, "Aguardiente de calabaza": 18, "Extracto de arcano refinado": 45 } },
-      "3": { "ingredients": { "Leche de vaca": 72, "Milenrama de ghoul": 36, "Mullein tocado con fuego": 36, "Huevos de ganso": 18, "Aguardiente de calabaza": 18, "Extracto de Arcano Puro": 45 } }
-    }
-  },
-  "T8_GATHERING_MAJOR": {
-    "name": "Poción de recolección mayor",
-    "tier": 8,
-    "outputQuantity": 10,
-    "enchantments": {
-      "0": { "ingredients": { "Mantequilla de vaca": 72, "Milenrama de ghoul": 36, "Mullein tocado con fuego": 36, "Dedalera esquiva": 18, "Aguardiente de calabaza": 18, "Excelente diente de piedra rúnica": 1 } },
-      "1": { "ingredients": { "Mantequilla de vaca": 72, "Milenrama de ghoul": 36, "Mullein tocado con fuego": 36, "Dedalera esquiva": 18, "Aguardiente de calabaza": 18, "Excelente diente de piedra rúnica": 1, "Extracto básico de Arcano": 45 } },
-      "2": { "ingredients": { "Mantequilla de vaca": 72, "Milenrama de ghoul": 36, "Mullein tocado con fuego": 36, "Dedalera esquiva": 18, "Aguardiente de calabaza": 18, "Excelente diente de piedra rúnica": 1, "Extracto de arcano refinado": 45 } },
-      "3": { "ingredients": { "Mantequilla de vaca": 72, "Milenrama de ghoul": 36, "Mullein tocado con fuego": 36, "Dedalera esquiva": 18, "Aguardiente de calabaza": 18, "Excelente diente de piedra rúnica": 1, "Extracto de Arcano Puro": 45 } }
-    }
-  },
-  "T8_TORNADO_GRAND": {
-    "name": "Un gran tornado en una botella",
-    "tier": 8,
-    "outputQuantity": 5,
-    "enchantments": {
-      "0": { "ingredients": { "Milenrama de ghoul": 72, "Mullein tocado con fuego": 36, "Orujo de maíz": 36, "Huevos de ganso": 18, "Aguardiente de calabaza": 18, "Hermosa pluma del amanecer excelente": 1 } },
-      "1": { "ingredients": { "Milenrama de ghoul": 72, "Mullein tocado con fuego": 36, "Orujo de maíz": 36, "Huevos de ganso": 18, "Aguardiente de calabaza": 18, "Hermosa pluma del amanecer excelente": 1, "Extracto básico de Arcano": 45 } },
-      "2": { "ingredients": { "Milenrama de ghoul": 72, "Mullein tocado con fuego": 36, "Orujo de maíz": 36, "Huevos de ganso": 18, "Aguardiente de calabaza": 18, "Hermosa pluma del amanecer excelente": 1, "Extracto de arcano refinado": 45 } },
-      "3": { "ingredients": { "Milenrama de ghoul": 72, "Mullein tocado con fuego": 36, "Orujo de maíz": 36, "Huevos de ganso": 18, "Aguardiente de calabaza": 18, "Hermosa pluma del amanecer excelente": 1, "Extracto de Arcano Puro": 45 } }
+  "T8_POTIONS": {
+    "T8_VENOM_MAJOR": {
+      "name": "Poción de veneno mayor",
+      "tier": 8,
+      "outputQuantity": 5,
+      "enchantments": {
+        "0": { "ingredients": { "Milenrama de ghoul": 72, "Mullein tocado con fuego": 36, "Dragón Teasel": 36, "Leche de vaca": 18, "Aguardiente de calabaza": 18 } },
+        "1": { "ingredients": { "Milenrama de ghoul": 72, "Mullein tocado con fuego": 36, "Dragón Teasel": 36, "Leche de vaca": 18, "Aguardiente de calabaza": 18, "Extracto básico de Arcano": 45 } },
+        "2": { "ingredients": { "Milenrama de ghoul": 72, "Mullein tocado con fuego": 36, "Dragón Teasel": 36, "Leche de vaca": 18, "Aguardiente de calabaza": 18, "Extracto de arcano refinado": 45 } },
+        "3": { "ingredients": { "Milenrama de ghoul": 72, "Mullein tocado con fuego": 36, "Dragón Teasel": 36, "Leche de vaca": 18, "Aguardiente de calabaza": 18, "Extracto de Arcano Puro": 45 } }
+      }
+    },
+    "T8_INVISIBILITY": {
+      "name": "Poción de invisibilidad",
+      "tier": 8,
+      "outputQuantity": 5,
+      "enchantments": {
+        "0": { "ingredients": { "Milenrama de ghoul": 72, "Dedalera esquiva": 36, "Dragón Teasel": 36, "Leche de vaca": 18, "Aguardiente de calabaza": 18 } },
+        "1": { "ingredients": { "Milenrama de ghoul": 72, "Dedalera esquiva": 36, "Dragón Teasel": 36, "Leche de vaca": 18, "Aguardiente de calabaza": 18, "Extracto básico de Arcano": 45 } },
+        "2": { "ingredients": { "Milenrama de ghoul": 72, "Dedalera esquiva": 36, "Dragón Teasel": 36, "Leche de vaca": 18, "Aguardiente de calabaza": 18, "Extracto de arcano refinado": 45 } },
+        "3": { "ingredients": { "Milenrama de ghoul": 72, "Dedalera esquiva": 36, "Dragón Teasel": 36, "Leche de vaca": 18, "Aguardiente de calabaza": 18, "Extracto de Arcano Puro": 45 } }
+      }
+    },
+    "T8_BERSERKER_MAJOR": {
+      "name": "Poción de berserker mayor",
+      "tier": 8,
+      "outputQuantity": 10,
+      "enchantments": {
+        "0": { "ingredients": { "Milenrama de ghoul": 72, "Consuelda de hoja brillante": 36, "Schnapps de patata": 36, "Orujo de maíz": 18, "Aguardiente de calabaza": 18, "Excelentes colmillos de hombre lobo": 1 } },
+        "1": { "ingredients": { "Milenrama de ghoul": 72, "Consuelda de hoja brillante": 36, "Schnapps de patata": 36, "Orujo de maíz": 18, "Aguardiente de calabaza": 18, "Excelentes colmillos de hombre lobo": 1, "Extracto básico de Arcano": 45 } },
+        "2": { "ingredients": { "Milenrama de ghoul": 72, "Consuelda de hoja brillante": 36, "Schnapps de patata": 36, "Orujo de maíz": 18, "Aguardiente de calabaza": 18, "Excelentes colmillos de hombre lobo": 1, "Extracto de arcano refinado": 45 } },
+        "3": { "ingredients": { "Milenrama de ghoul": 72, "Consuelda de hoja brillante": 36, "Schnapps de patata": 36, "Orujo de maíz": 18, "Aguardiente de calabaza": 18, "Excelentes colmillos de hombre lobo": 1, "Extracto de Arcano Puro": 45 } }
+      }
+    },
+    "T8_FIRE_INFERNAL_MAJOR": {
+      "name": "Poción de fuego infernal mayor",
+      "tier": 8,
+      "outputQuantity": 5,
+      "enchantments": {
+        "0": { "ingredients": { "Leche de vaca": 72, "Milenrama de ghoul": 36, "Mullein tocado con fuego": 36, "Huevos de ganso": 18, "Aguardiente de calabaza": 18 } },
+        "1": { "ingredients": { "Leche de vaca": 72, "Milenrama de ghoul": 36, "Mullein tocado con fuego": 36, "Huevos de ganso": 18, "Aguardiente de calabaza": 18, "Extracto básico de Arcano": 45 } },
+        "2": { "ingredients": { "Leche de vaca": 72, "Milenrama de ghoul": 36, "Mullein tocado con fuego": 36, "Huevos de ganso": 18, "Aguardiente de calabaza": 18, "Extracto de arcano refinado": 45 } },
+        "3": { "ingredients": { "Leche de vaca": 72, "Milenrama de ghoul": 36, "Mullein tocado con fuego": 36, "Huevos de ganso": 18, "Aguardiente de calabaza": 18, "Extracto de Arcano Puro": 45 } }
+      }
+    },
+    "T8_GATHERING_MAJOR": {
+      "name": "Poción de recolección mayor",
+      "tier": 8,
+      "outputQuantity": 10,
+      "enchantments": {
+        "0": { "ingredients": { "Mantequilla de vaca": 72, "Milenrama de ghoul": 36, "Mullein tocado con fuego": 36, "Dedalera esquiva": 18, "Aguardiente de calabaza": 18, "Excelente diente de piedra rúnica": 1 } },
+        "1": { "ingredients": { "Mantequilla de vaca": 72, "Milenrama de ghoul": 36, "Mullein tocado con fuego": 36, "Dedalera esquiva": 18, "Aguardiente de calabaza": 18, "Excelente diente de piedra rúnica": 1, "Extracto básico de Arcano": 45 } },
+        "2": { "ingredients": { "Mantequilla de vaca": 72, "Milenrama de ghoul": 36, "Mullein tocado con fuego": 36, "Dedalera esquiva": 18, "Aguardiente de calabaza": 18, "Excelente diente de piedra rúnica": 1, "Extracto de arcano refinado": 45 } },
+        "3": { "ingredients": { "Mantequilla de vaca": 72, "Milenrama de ghoul": 36, "Mullein tocado con fuego": 36, "Dedalera esquiva": 18, "Aguardiente de calabaza": 18, "Excelente diente de piedra rúnica": 1, "Extracto de Arcano Puro": 45 } }
+      }
+    },
+    "T8_TORNADO_GRAND": {
+      "name": "Un gran tornado en una botella",
+      "tier": 8,
+      "outputQuantity": 5,
+      "enchantments": {
+        "0": { "ingredients": { "Milenrama de ghoul": 72, "Mullein tocado con fuego": 36, "Orujo de maíz": 36, "Huevos de ganso": 18, "Aguardiente de calabaza": 18, "Hermosa pluma del amanecer excelente": 1 } },
+        "1": { "ingredients": { "Milenrama de ghoul": 72, "Mullein tocado con fuego": 36, "Orujo de maíz": 36, "Huevos de ganso": 18, "Aguardiente de calabaza": 18, "Hermosa pluma del amanecer excelente": 1, "Extracto básico de Arcano": 45 } },
+        "2": { "ingredients": { "Milenrama de ghoul": 72, "Mullein tocado con fuego": 36, "Orujo de maíz": 36, "Huevos de ganso": 18, "Aguardiente de calabaza": 18, "Hermosa pluma del amanecer excelente": 1, "Extracto de arcano refinado": 45 } },
+        "3": { "ingredients": { "Milenrama de ghoul": 72, "Mullein tocado con fuego": 36, "Orujo de maíz": 36, "Huevos de ganso": 18, "Aguardiente de calabaza": 18, "Hermosa pluma del amanecer excelente": 1, "Extracto de Arcano Puro": 45 } }
+      }
     }
   }
 }
