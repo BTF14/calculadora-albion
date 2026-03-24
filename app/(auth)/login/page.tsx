@@ -19,7 +19,7 @@ export default function LoginPage() {
   }
 
   return (
-    <div className="max-w-md mx-auto mt-10">
+    <div className="max-w-md mx-auto mt-10 p-4">
       <h1 className="text-2xl font-bold mb-6">Iniciar sesión</h1>
       <form onSubmit={handleSubmit} className="space-y-4">
         <input
@@ -38,14 +38,22 @@ export default function LoginPage() {
           className="w-full border rounded px-3 py-2"
           required
         />
-        {error && <p className="text-red-500">{error}</p>}
-        <button type="submit" className="bg-blue-600 text-white px-4 py-2 rounded w-full">
+        {error && <p className="text-red-500 text-sm">{error}</p>}
+        <button type="submit" className="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded w-full font-medium transition">
           Ingresar
         </button>
       </form>
-      <p className="mt-4 text-center">
-        ¿No tienes cuenta? <Link href="/registro" className="text-blue-600">Regístrate</Link>
-      </p>
+      
+      <div className="mt-6 space-y-2 text-center">
+        <p className="text-sm">
+          ¿No tienes cuenta? <Link href="/registro" className="text-blue-600 hover:underline">Regístrate</Link>
+        </p>
+        <p className="text-sm">
+          <Link href="/auth/forgot-password" name="forgot" className="text-blue-600 hover:underline">
+            ¿Olvidaste tu contraseña?
+          </Link>
+        </p>
+      </div>
     </div>
   )
 }
