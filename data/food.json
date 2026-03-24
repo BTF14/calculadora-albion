@@ -263,37 +263,19 @@
     "focus": 23530,
     "ingredients": { "Ternera Cruda": 72, "Calabaza": 36, "Pan": 36, "Salsa de Pescado Especial": 90 }
   },
-  "T8_BOCADILLO_TERNERA_1": {
-    "name": "Bocadillo de Ternera .1",
-    "tier": 8,
-    "outputQuantity": 10,
-    "fame": 3780,
-    "focus": 6940,
-    "ingredients": { "Ternera Cruda": 72, "Pan": 36, "Mantequilla de Vaca": 18, "Salsa de Pescado Básica": 90 }
-  },
-  "T8_BOCADILLO_TERNERA_2": {
-    "name": "Bocadillo de Ternera .2",
-    "tier": 8,
-    "outputQuantity": 10,
-    "fame": 3780,
-    "focus": 10940,
-    "ingredients": { "Ternera Cruda": 72, "Pan": 36, "Mantequilla de Vaca": 18, "Salsa de Pescado Extravagante": 90 }
-  },
-  "T8_BOCADILLO_TERNERA_3": {
-    "name": "Bocadillo de Ternera .3",
-    "tier": 8,
-    "outputQuantity": 10,
-    "fame": 3780,
-    "focus": 22950,
-    "ingredients": { "Ternera Cruda": 72, "Pan": 36, "Mantequilla de Vaca": 18, "Salsa de Pescado Especial": 90 }
-  },
   "T8_TORTILLA_CERDO_AVA": {
     "name": "Tortilla de Cerdo Ava",
     "tier": 8,
     "outputQuantity": 10,
     "fame": 3780,
     "focus": 4640,
-    "ingredients": { "Leche de Vaca": 36, "Huevos de Ganso": 18, "Cerdo Crudo": 72, "Energía Avaloniana": 90 }
+    "ingredients": { 
+      "Cerdo Crudo": 72, 
+      "Maíz": 36, 
+      "Huevos de Ganso": 18, 
+      "Leche de Vaca": 36, 
+      "Energía Avaloniana": 90 
+    }
   },
   "T8_TORTILLA_CERDO_AVA_1": {
     "name": "Tortilla de Cerdo Ava .1",
@@ -301,7 +283,14 @@
     "outputQuantity": 10,
     "fame": 3780,
     "focus": 6650,
-    "ingredients": { "Leche de Vaca": 36, "Huevos de Ganso": 18, "Cerdo Crudo": 72, "Energía Avaloniana": 90, "Salsa de Pescado Básica": 90 }
+    "ingredients": { 
+      "Cerdo Crudo": 72, 
+      "Maíz": 36, 
+      "Huevos de Ganso": 18, 
+      "Leche de Vaca": 36, 
+      "Energía Avaloniana": 90,
+      "Salsa de Pescado Básica": 90 
+    }
   },
   "T8_TORTILLA_CERDO_AVA_2": {
     "name": "Tortilla de Cerdo Ava .2",
@@ -309,7 +298,14 @@
     "outputQuantity": 10,
     "fame": 3780,
     "focus": 10650,
-    "ingredients": { "Leche de Vaca": 36, "Huevos de Ganso": 18, "Cerdo Crudo": 72, "Energía Avaloniana": 90, "Salsa de Pescado Extravagante": 90 }
+    "ingredients": { 
+      "Cerdo Crudo": 72, 
+      "Maíz": 36, 
+      "Huevos de Ganso": 18, 
+      "Leche de Vaca": 36, 
+      "Energía Avaloniana": 90,
+      "Salsa de Pescado Extravagante": 90 
+    }
   },
   "T8_TORTILLA_CERDO_AVA_3": {
     "name": "Tortilla de Cerdo Ava .3",
@@ -317,7 +313,14 @@
     "outputQuantity": 10,
     "fame": 3780,
     "focus": 22660,
-    "ingredients": { "Leche de Vaca": 36, "Huevos de Ganso": 18, "Cerdo Crudo": 72, "Energía Avaloniana": 90, "Salsa de Pescado Especial": 90 }
+    "ingredients": { 
+      "Cerdo Crudo": 72, 
+      "Maíz": 36, 
+      "Huevos de Ganso": 18, 
+      "Leche de Vaca": 36, 
+      "Energía Avaloniana": 90,
+      "Salsa de Pescado Especial": 90 
+    }
   },
   "T8_GUISO_TERNERA_AVA": {
     "name": "Guiso de Ternera Ava",
@@ -325,7 +328,13 @@
     "outputQuantity": 10,
     "fame": 4320,
     "focus": 5280,
-    "ingredients": { "Ternera Cruda": 72, "Calabaza": 36, "Maíz": 36, "Energía Avaloniana": 90 }
+    "ingredients": { 
+      "Ternera Cruda": 72, 
+      "Calabaza": 36, 
+      "Pan": 36, 
+      "Maíz": 36, 
+      "Energía Avaloniana": 90 
+    }
   },
   "T8_GUISO_TERNERA_AVA_1": {
     "name": "Guiso de Ternera Ava .1",
@@ -333,7 +342,14 @@
     "outputQuantity": 10,
     "fame": 4320,
     "focus": 7280,
-    "ingredients": { "Ternera Cruda": 72, "Calabaza": 36, "Maíz": 36, "Energía Avaloniana": 90, "Salsa de Pescado Básica": 90 }
+    "ingredients": { 
+      "Ternera Cruda": 72, 
+      "Calabaza": 36, 
+      "Pan": 36, 
+      "Maíz": 36, 
+      "Energía Avaloniana": 90,
+      "Salsa de Pescado Básica": 90 
+    }
   },
   "T8_GUISO_TERNERA_AVA_2": {
     "name": "Guiso de Ternera Ava .2",
@@ -341,7 +357,14 @@
     "outputQuantity": 10,
     "fame": 4320,
     "focus": 11280,
-    "ingredients": { "Ternera Cruda": 72, "Calabaza": 36, "Maíz": 36, "Energía Avaloniana": 90, "Salsa de Pescado Extravagante": 90 }
+    "ingredients": { 
+      "Ternera Cruda": 72, 
+      "Calabaza": 36, 
+      "Pan": 36, 
+      "Maíz": 36, 
+      "Energía Avaloniana": 90,
+      "Salsa de Pescado Extravagante": 90 
+    }
   },
   "T8_GUISO_TERNERA_AVA_3": {
     "name": "Guiso de Ternera Ava .3",
@@ -349,38 +372,13 @@
     "outputQuantity": 10,
     "fame": 4320,
     "focus": 23290,
-    "ingredients": { "Ternera Cruda": 72, "Calabaza": 36, "Maíz": 36, "Energía Avaloniana": 90, "Salsa de Pescado Especial": 90 }
-  },
-  "T8_BOCADILLO_TERNERA_AVA": {
-    "name": "Bocadillo de Ternera Ava",
-    "tier": 8,
-    "outputQuantity": 10,
-    "fame": 3780,
-    "focus": 4940,
-    "ingredients": { "Ternera Cruda": 72, "Pan": 36, "Mantequilla de Vaca": 18, "Energía Avaloniana": 90 }
-  },
-  "T8_BOCADILLO_TERNERA_AVA_1": {
-    "name": "Bocadillo de Ternera Ava .1",
-    "tier": 8,
-    "outputQuantity": 10,
-    "fame": 3780,
-    "focus": 6940,
-    "ingredients": { "Ternera Cruda": 72, "Pan": 36, "Mantequilla de Vaca": 18, "Energía Avaloniana": 90, "Salsa de Pescado Básica": 90 }
-  },
-  "T8_BOCADILLO_TERNERA_AVA_2": {
-    "name": "Bocadillo de Ternera Ava .2",
-    "tier": 8,
-    "outputQuantity": 10,
-    "fame": 3780,
-    "focus": 10940,
-    "ingredients": { "Ternera Cruda": 72, "Pan": 36, "Mantequilla de Vaca": 18, "Energía Avaloniana": 90, "Salsa de Pescado Extravagante": 90 }
-  },
-  "T8_BOCADILLO_TERNERA_AVA_3": {
-    "name": "Bocadillo de Ternera Ava .3",
-    "tier": 8,
-    "outputQuantity": 10,
-    "fame": 3780,
-    "focus": 22950,
-    "ingredients": { "Ternera Cruda": 72, "Pan": 36, "Mantequilla de Vaca": 18, "Energía Avaloniana": 90, "Salsa de Pescado Especial": 90 }
+    "ingredients": { 
+      "Ternera Cruda": 72, 
+      "Calabaza": 36, 
+      "Pan": 36, 
+      "Maíz": 36, 
+      "Energía Avaloniana": 90,
+      "Salsa de Pescado Especial": 90 
+    }
   }
 }
