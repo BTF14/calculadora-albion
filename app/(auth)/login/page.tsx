@@ -20,14 +20,14 @@ export default function LoginPage() {
 
   return (
     <div className="max-w-md mx-auto mt-10 p-4">
-      <h1 className="text-2xl font-bold mb-6">Iniciar sesión</h1>
+      <h1 className="text-2xl font-bold mb-6 text-center">Iniciar sesión</h1>
       <form onSubmit={handleSubmit} className="space-y-4">
         <input
           type="email"
           placeholder="Email"
           value={email}
           onChange={e => setEmail(e.target.value)}
-          className="w-full border rounded px-3 py-2"
+          className="w-full border rounded px-3 py-2 outline-none focus:ring-2 focus:ring-blue-500"
           required
         />
         <input
@@ -35,21 +35,27 @@ export default function LoginPage() {
           placeholder="Contraseña"
           value={password}
           onChange={e => setPassword(e.target.value)}
-          className="w-full border rounded px-3 py-2"
+          className="w-full border rounded px-3 py-2 outline-none focus:ring-2 focus:ring-blue-500"
           required
         />
         {error && <p className="text-red-500 text-sm">{error}</p>}
-        <button type="submit" className="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded w-full font-medium transition">
+        <button 
+          type="submit" 
+          className="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded w-full font-medium transition-colors"
+        >
           Ingresar
         </button>
       </form>
       
-      <div className="mt-6 space-y-2 text-center">
+      <div className="mt-6 space-y-3 text-center">
         <p className="text-sm">
           ¿No tienes cuenta? <Link href="/registro" className="text-blue-600 hover:underline">Regístrate</Link>
         </p>
         <p className="text-sm">
-          <Link href="/auth/forgot-password" name="forgot" className="text-blue-600 hover:underline">
+          <Link 
+            href="/auth/forgot-password" 
+            className="text-blue-600 hover:underline"
+          >
             ¿Olvidaste tu contraseña?
           </Link>
         </p>
