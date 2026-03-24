@@ -1,39 +1,39 @@
 import potionsData from '../../data/refining/potions.json';
 
+/**
+ * Obtiene los datos de una poción específica y su receta según el encantamiento
+ */
 export const calculatePotionCosts = (itemId: string, enchantment: number) => {
-  // Buscamos la poción en el JSON usando el ID (ej: T4_RESISTANCE)
-  const allPotions = potionsData as any;
-  const potion = allPotions.tiers[itemId];
+  // Forzamos el acceso al JSON para evitar errores de unión de tipos en TS
+  const data = potionsData as any;
+  const potion = data.tiers[itemId];
 
   if (!potion) {
-    throw new Error(`Poción ${itemId} no encontrada en la base de datos`);
+    throw new Error(`Poción ${itemId} no encontrada en los registros.`);
   }
 
-  // Accedemos al encantamiento (.0, .1, .2, .3)
-  // Usamos el string del número para buscar en el objeto de encantamientos
+  // Convertimos el número de encantamiento (0, 1, 2, 3) a string para la llave del JSON
   const enchKey = enchantment.toString();
-  const recipe = potion.enchantments[enchKey];
+  const recipe = potion.enchantments && potion.enchantments[enchKey];
 
   if (!recipe) {
     throw new Error(`Encantamiento ${enchantment} no disponible para ${itemId}`);
   }
 
-  // Retornamos los datos para la interfaz medieval
   return {
     name: potion.name,
+    tier: potion.tier,
     outputQuantity: potion.outputQuantity,
-    ingredients: recipe.ingredients,
-    tier: potion.tier
+    ingredients: recipe.ingredients
   };
 };
 
 /**
- * Función para calcular el costo total basado en precios de mercado
- * (Puedes conectar esto con tu estado de precios de la UI)
+ * Calcula el costo total de plata basado en los ingredientes y precios actuales
  */
-export const getTotalProductionCost = (ingredients: Record<string, number>, prices: Record<string, number>) => {
+export const getTotalProductionCost = (ingredients: Record<string, number>, marketPrices: Record<string, number>) => {
   return Object.entries(ingredients).reduce((total, [name, amount]) => {
-    const price = prices[name] || 0;
+    const price = marketPrices[name] || 0;
     return total + (amount * price);
   }, 0);
 };
