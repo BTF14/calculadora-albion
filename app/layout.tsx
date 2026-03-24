@@ -5,8 +5,8 @@ import { Providers } from './providers'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
-  title: 'Albion Crafting Calculator',
-  description: 'Calculadora de crafteo para Albion Online',
+  title: 'Albion Crafter Hub',
+  description: 'Calculadora profesional de crafteo para el Gremio',
 }
 
 export default function RootLayout({
@@ -16,9 +16,14 @@ export default function RootLayout({
 }) {
   return (
     <html lang="es">
+      <head>
+        {/* Esto es vital para que se vea bien en tu teléfono y no se mueva el zoom */}
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" />
+      </head>
       <body className={inter.className}>
         <Providers>
-          <main className="container mx-auto p-4">{children}</main>
+          {/* Eliminamos el 'container mx-auto' para que el diseño ocupe todo el ancho real */}
+          {children}
         </Providers>
       </body>
     </html>
