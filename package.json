@@ -1,18 +1,18 @@
 {
-  "name": "albion-crafting-calculator",
-  "version": "1.0.0",
+  "name": "albion-crafting-hub",
+  "version": "4.0.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "type-check": "tsc --noEmit"
   },
   "dependencies": {
     "@tanstack/react-query": "^5.12.0",
-    "@upstash/ratelimit": "^0.4.4",
-    "@upstash/redis": "^1.23.0",
-    "@vercel/blob": "^0.23.0",
+    "@upstash/ratelimit": "^1.2.1",
+    "@upstash/redis": "^1.28.4",
     "@vercel/postgres": "^0.8.0",
     "bcrypt": "^5.1.1",
     "next": "14.1.0",
@@ -20,8 +20,8 @@
     "qrcode.react": "^3.1.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-hook-form": "^7.48.0",
-    "resend": "^3.2.0"
+    "resend": "^3.2.0",
+    "zod": "^3.22.4"
   },
   "devDependencies": {
     "@types/bcrypt": "^5.0.2",

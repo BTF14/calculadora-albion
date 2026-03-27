@@ -1,56 +1,40 @@
-import { CraftingInput, CraftingOutput } from './types';
+// lib/calculations/bags.ts
+import type { CraftingInput, CraftingOutput, BagItemData } from './types';
+import bagsJson     from '@/data/bags.json';
+import visionBagsJson from '@/data/visionBags.json';
 
-// Datos básicos de las bolsas integrados para evitar errores de ruta
-const bagsData: Record<string, any> = {
-  "T4_BAG": {
-    "tier": 4,
-    "enchantments": {
-      "0": { "ingredients": { "T4_CLOTH": 8, "T4_LEATHER": 8 } },
-      "1": { "ingredients": { "T4_CLOTH_LEVEL1": 8, "T4_LEATHER_LEVEL1": 8 } },
-      "2": { "ingredients": { "T4_CLOTH_LEVEL2": 8, "T4_LEATHER_LEVEL2": 8 } },
-      "3": { "ingredients": { "T4_CLOTH_LEVEL3": 8, "T4_LEATHER_LEVEL3": 8 } }
-    }
-  }
-  // Puedes agregar más aquí o importar tus JSON si las rutas son correctas
+// Fusionar ambos catálogos en un Record tipado
+const allBags: Record<string, BagItemData> = {
+  ...(bagsJson     as Record<string, BagItemData>),
+  ...(visionBagsJson as Record<string, BagItemData>),
 };
 
 export function calculateBag(input: CraftingInput): CraftingOutput {
   const { itemId, enchantment, quantity } = input;
-  
-  // Buscamos la bolsa en nuestros datos
-  const bag = bagsData[itemId];
 
+  const bag = allBags[itemId];
   if (!bag) {
-    // Si no la encuentra, devolvemos un objeto vacío para que no rompa el build
-    return {
-      ingredients: {},
-      outputQuantity: quantity,
-      fame: 0,
-      focusPoints: 0,
-    };
+    // Ítem no catalogado: devolvemos vacío sin romper el build
+    return { ingredients: {}, outputQuantity: quantity, fame: 0, focusPoints: 0 };
   }
 
-  const enchantKey = String(enchantment || 0);
-  const recipe = bag.enchantments?.[enchantKey] || bag.enchantments?.["0"];
-
+  const enchKey  = String(enchantment);
+  const recipe   = bag.enchantments[enchKey] ?? bag.enchantments['0'];
   if (!recipe) {
     throw new Error(`Receta no encontrada para ${itemId} encantamiento ${enchantment}`);
   }
 
   const ingredients: Record<string, number> = {};
-  for (const [ing, qty] of Object.entries(recipe.ingredients as Record<string, number>)) {
-    ingredients[ing] = qty * quantity;
+  for (const [mat, qty] of Object.entries(recipe.ingredients)) {
+    ingredients[mat] = qty * quantity;
   }
 
-  return {
-    ingredients,
-    outputQuantity: quantity,
-    fame: 0,
-    focusPoints: 0,
-  };
+  return { ingredients, outputQuantity: quantity, fame: 0, focusPoints: 0 };
 }
 
-// Mantenemos esta función por si otros archivos la llaman
-export const calculateBagIngredients = (itemId: string, enchantment: any, quantity: number) => {
-  return calculateBag({ itemId, enchantment: enchantment as any, quantity });
-};
+// Alias para compatibilidad con código existente
+export const calculateBagIngredients = (
+  itemId: string,
+  enchantment: number,
+  quantity: number
+): CraftingOutput => calculateBag({ itemId, enchantment: enchantment as 0|1|2|3|4, quantity });
