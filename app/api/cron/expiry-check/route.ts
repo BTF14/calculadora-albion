@@ -16,6 +16,7 @@ import {
 
 // ─── TIPOS ────────────────────────────────────────────────────
 interface ExpiringUser {
+  [key: string]: any; // Permite compatibilidad con Record<string, unknown>
   user_id:       number;
   email:         string;
   referral_code: string;
