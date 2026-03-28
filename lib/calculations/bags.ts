@@ -3,10 +3,14 @@ import type { CraftingInput, CraftingOutput, BagItemData } from './types';
 import bagsJson     from '@/data/bags.json';
 import visionBagsJson from '@/data/visionBags.json';
 
-// Fusionar ambos catálogos en un Record tipado
+/**
+ * Nota técnica: Usamos 'unknown' como puente porque TypeScript detecta 
+ * que la estructura del JSON no coincide exactamente con BagItemData 
+ * (faltan los encantamientos en la raíz del objeto).
+ */
 const allBags: Record<string, BagItemData> = {
-  ...(bagsJson     as Record<string, BagItemData>),
-  ...(visionBagsJson as Record<string, BagItemData>),
+  ...(bagsJson       as unknown as Record<string, BagItemData>),
+  ...(visionBagsJson as unknown as Record<string, BagItemData>),
 };
 
 export function calculateBag(input: CraftingInput): CraftingOutput {
@@ -18,8 +22,14 @@ export function calculateBag(input: CraftingInput): CraftingOutput {
     return { ingredients: {}, outputQuantity: quantity, fame: 0, focusPoints: 0 };
   }
 
-  const enchKey  = String(enchantment);
-  const recipe   = bag.enchantments[enchKey] ?? bag.enchantments['0'];
+  const enchKey = String(enchantment);
+  
+  // Seguridad: Verificamos si existe 'enchantments' para evitar crash en runtime
+  if (!bag.enchantments) {
+     return { ingredients: {}, outputQuantity: quantity, fame: 0, focusPoints: 0 };
+  }
+
+  const recipe = bag.enchantments[enchKey] ?? bag.enchantments['0'];
   if (!recipe) {
     throw new Error(`Receta no encontrada para ${itemId} encantamiento ${enchantment}`);
   }
