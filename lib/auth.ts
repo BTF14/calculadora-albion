@@ -13,7 +13,8 @@ import type { UserRole } from '@/src/types/albion';
 // Intervalo de refresco del token desde la BD (5 minutos)
 const TOKEN_REFRESH_INTERVAL_MS = 5 * 60 * 1000;
 
-interface DbUser {
+// Agregamos 'extends Record<string, unknown>' para satisfacer la restricción de la función query
+interface DbUser extends Record<string, unknown> {
   id: number;
   email: string;
   password_hash: string;
@@ -21,7 +22,14 @@ interface DbUser {
   referral_code: string;
 }
 
-interface DbExpiry { expiry: string; }
+interface DbExpiry extends Record<string, unknown> { 
+  expiry: string; 
+}
+
+interface DbUserBase extends Record<string, unknown> {
+  role: UserRole;
+  referral_code: string;
+}
 
 interface DbRoleExpiry {
   role: UserRole;
@@ -36,7 +44,7 @@ interface DbRoleExpiry {
 async function refreshTokenFromDb(userId: number): Promise<DbRoleExpiry | null> {
   try {
     const [userRows, expiryRows] = await Promise.all([
-      query<{ role: UserRole; referral_code: string }>(
+      query<DbUserBase>(
         'SELECT role, referral_code FROM users WHERE id = $1',
         [userId]
       ),
